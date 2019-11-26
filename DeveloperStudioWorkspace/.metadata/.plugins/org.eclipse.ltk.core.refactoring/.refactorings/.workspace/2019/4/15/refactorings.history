@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/crowd-funding-benificiary-campaign-details" element2="/crowd-funding-dynamic-fees-and-fund-withdraw" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1554870869343"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/crowd-funding-benificiary-campaign-details" element2="/crowd-funding-dynamic-fees-and-fund-withdraw" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1554968156469"/>
+</session>

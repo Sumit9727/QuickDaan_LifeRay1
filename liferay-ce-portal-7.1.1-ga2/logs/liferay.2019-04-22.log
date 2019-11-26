@@ -1,0 +1,276 @@
+2019-04-22 03:12:08.767 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-04-22 03:12:11.370 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-04-22 03:12:28.244 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-04-22 03:16:48.506 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:273] LPKG validation time 04:30s
+2019-04-22 03:16:53.534 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-04-22 03:16:53.840 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-04-22 03:16:53.840 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-04-22 03:17:09.479 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-04-22 03:17:09.486 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-04-22 03:17:14.820 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-04-22 03:17:26.345 INFO  [main][StartupHelper:72] There are no patches installed
+2019-04-22 03:17:28.572 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-04-22 03:17:43.863 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 03:17:56.216 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-04-22 03:17:56.822 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-04-22 03:17:57.868 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-04-22 03:17:57.883 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-04-22 03:17:57.883 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-04-22 03:17:57.884 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-04-22 03:17:58.915 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-04-22 03:17:58.931 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-04-22 03:18:02.900 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-04-22 03:18:02.915 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-04-22 03:18:02.916 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-04-22 04:11:47.823 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 04:11:48.090 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 04:11:48.306 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 05:04:54.928 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m15s64ms994µs377ns).
+2019-04-22 05:04:57.317 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m15s65ms498µs710ns).
+2019-04-22 05:21:50.365 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:21:50.534 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:21:50.844 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 05:23:26.077 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:23:26.215 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:23:26.383 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 05:24:31.565 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:24:31.739 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:24:31.937 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 05:26:47.288 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:26:47.415 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:26:47.573 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 05:58:14.927 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:58:15.095 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 05:58:15.354 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 06:23:36.916 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 06:23:37.066 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 06:23:37.438 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 06:39:48.718 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 06:39:48.841 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 06:39:49.035 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 08:27:11.202 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m48s294ms830µs23ns).
+2019-04-22 08:27:13.514 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h6m48s295ms379µs659ns).
+2019-04-22 08:47:56.474 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.api_1.0.0 [6829]
+2019-04-22 08:47:56.976 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [6836]
+2019-04-22 08:47:57.273 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED crowd.funding.newsletter.email_1.0.0 [6835]
+2019-04-22 08:47:57.310 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [6834]
+2019-04-22 08:47:57.369 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.recruitment_1.0.0 [6833]
+2019-04-22 08:47:57.420 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 08:47:58.290 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.dynamic.fees.controller_1.0.0 [6831]
+2019-04-22 08:47:59.234 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.service_1.0.0 [6830]
+2019-04-22 08:47:59.455 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:42] STOPPED com.crowd.funding.admin.report_1.0.0 [6828]
+2019-04-22 08:47:59.554 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.admin.report_1.0.0 [6828]
+2019-04-22 08:47:59.781 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.database.service_1.0.0 [6830]
+2019-04-22 08:48:01.329 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.dynamic.fees.controller_1.0.0 [6831]
+2019-04-22 08:48:01.379 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 08:48:01.533 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 08:48:01.569 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.recruitment_1.0.0 [6833]
+2019-04-22 08:48:01.616 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [6834]
+2019-04-22 08:48:01.647 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED crowd.funding.newsletter.email_1.0.0 [6835]
+2019-04-22 08:48:01.710 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [6836]
+2019-04-22 08:48:01.742 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.database.api_1.0.0 [6829]
+2019-04-22 08:48:11.873 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.service_1.0.0 [6830]
+2019-04-22 08:48:12.002 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.database.service_1.0.0 [6830]
+2019-04-22 08:48:12.443 WARN  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][ServiceComponentLocalServiceImpl:625] Auto upgrading CrowdFunding database to build number 158 is not supported for a production environment. Write an UpgradeStep to ensure data is upgraded correctly.
+2019-04-22 08:48:12.449 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][ServiceComponentLocalServiceImpl:652] Upgrading database with indexes.sql
+2019-04-22 08:48:59.431 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 08:48:59.585 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 08:48:59.807 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:02:20.688 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:02:20.818 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:02:21.192 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:07:01.448 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:07:01.574 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:07:01.729 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:12:21.960 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:12:22.089 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:12:22.254 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:15:07.413 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:15:07.547 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:15:07.727 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:15:41.455 ERROR [http-nio-8080-exec-8][PortletServlet:112] javax.portlet.PortletException: java.lang.NullPointerException
+javax.portlet.PortletException: java.lang.NullPointerException
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.callActionMethod(LiferayPortlet.java:207)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.callActionMethod(MVCPortlet.java:415)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.processAction(LiferayPortlet.java:97)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.processAction(MVCPortlet.java:260)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:77)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:50)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:564)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeAction(InvokerPortletImpl.java:610)
+	at com.liferay.portlet.internal.InvokerPortletImpl.processAction(InvokerPortletImpl.java:299)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.processAction(MonitoringInvokerPortlet.java:216)
+	at com.liferay.portlet.internal.PortletContainerImpl._processAction(PortletContainerImpl.java:489)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$processAction$0(PortletContainerImpl.java:147)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.processAction(PortletContainerImpl.java:140)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.processAction(SecurityPortletContainerWrapper.java:95)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.processAction(RestrictPortletContainerWrapper.java:78)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.processAction(PortletContainerUtil.java:114)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:346)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:462)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.uploadservletrequest.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:111)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.uploadservletrequest.UploadServletRequestFilter.processFilter(UploadServletRequestFilter.java:111)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.crowd.funding.module.controller.portlet.CrowdFundingBenificiaryDetailsPortlet.BenificiaryRelationIndividualFamily(CrowdFundingBenificiaryDetailsPortlet.java:279)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.callActionMethod(LiferayPortlet.java:189)
+	... 156 more
+2019-04-22 09:16:47.890 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:16:48.016 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:16:48.216 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:17:53.383 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:17:53.521 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:17:53.686 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:21:03.996 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:21:04.189 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:21:04.349 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:35:45.941 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:35:46.057 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:35:46.432 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 09:39:36.719 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:39:36.934 INFO  [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-22 09:39:37.187 ERROR [Refresh Thread: Equinox Container: 13010b12-1c85-4bfe-90c8-1b3cd0950a93][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-22 10:42:37.717 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m55s770ms224µs873ns).
+2019-04-22 10:42:39.941 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=12m55s772ms299µs546ns).
+2019-04-22 11:48:49.068 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m10s930ms403µs262ns).
+2019-04-22 11:48:51.307 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=35m10s916ms192µs356ns).

@@ -1,0 +1,1119 @@
+.DonorRegistrationForm{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width:813px;
+ margin-left: 15%;
+}
+.borderForm{
+	 border-radius: 12px;
+ 	 border-color: #7FBD2C;
+}
+
+.form-control {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 2.5rem;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.OTPValidation{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+  width:813px;
+ margin-left: 15%;
+}
+.DonateAmount{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+  width:813px;
+ margin-left: 15%;
+}
+
+.Feedback{
+ border-right:3px solid #7FBD2C;
+ border-top:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width:813px;
+ margin-left: 15%;}
+
+.AskQuestion{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width:813px;
+ margin-left: 15%;
+}
+
+.QuestionDetails{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+  width:813px;
+ margin-left: 15%;
+}
+
+
+.AdminDaysExtend{
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 600px;
+  width:813px;
+ margin-left: 15%;
+}
+
+
+strong {
+    color: #0077A2;
+    font-size: 13px;
+}
+
+.bordercity{
+	border-radius: 9px;
+	border: 1px solid #7FBD2C;
+	border-bottom: 3px solid #7FBD2C;
+	background-color:#e7e7ed;
+	height: 43px;
+	width: 704px;  
+	margin-top: 1px;
+}
+
+
+.ChangeProjectCategory{ 
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 600px;
+ width:813px;
+ margin-left: 15%;
+}
+
+.EditCampaign{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 600px;
+ width:813px;
+ margin-left: 15%;
+	
+}
+
+strong1{
+	font-size:medium;
+	color:#0077A2;
+}
+
+.RequestFundAmt{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 600px;
+ width:845px;
+ margin-left: 15%;
+	
+}	
+
+.tablefield{
+	border:1px solid #7FBD2C; 
+	border-bottom:3px solid #7FBD2C; 
+	border-radius:12px;
+	padding: 5px;
+	padding: 8px;
+    width: 455px;
+}
+
+/* .BenificaryCategory {
+	border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 30%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+
+.borderForm1{
+	
+	width:102%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	 border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+
+.borderForm2{
+	
+	width:48%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	  border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+.MyselfCategory{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+ 
+ 
+        h1, .h1 {
+    font-size: 1.625rem;
+    margin-left: 302px;
+    color: #0077A2;
+}
+
+label {
+         
+    color: #0077A2;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.borderForm {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 43px;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+     border-radius: 12px;
+ 	 border-bottom:3px solid #7FBD2C;
+}
+
+
+
+
+      
+    .avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}    
+
+  
+ .text-dark {
+    color: #272834 !important;
+    margin-left: 0px;
+}
+
+.CauseDetails{
+border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 624px;
+ margin-left: 22%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+
+.inline1{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline2{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline3{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline4{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline5{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline6{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline7{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	
+	
+	.BenificiaryDetails{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+ 
+
+.ProjectRegistration{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+h1, .h1 {
+    color: #0077A2;
+    margin-left: 234px;
+}
+h4, .h4 {
+    font-size: 26px;
+    margin-left: 163px;
+     color: #0077A2;
+}
+
+h5, .h5 {
+    font-size: 26px;
+    margin-left: 297px;
+    color: #0077A2;
+}
+h3, .h3 {
+    font-size: 1.1875rem;
+    margin-left: 459px;
+}
+h6, .h6 {
+    font-size: 26px;
+    margin-left: 305px;
+    color: #0077A2;
+}
+
+strong{
+	color: #0077A2;
+}
+
+.IndividualFamily{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+   
+   .IndividualCategory{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+    .IndividualOther{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFriend{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   
+   .GroupOther{
+   border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFamily{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .projectSucessfully{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 978px;
+ margin-left: 9%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+.borderForm3{
+	background-color: #edf9f0;
+border-radius: 12px;
+ width: 704px;  
+ margin-top: 7px;
+  margin-left: 2px;
+  border-bottom: 3px solid #7FBD2C;
+   border-color: #7FBD2C;
+   height: 43px;
+} */
+
+/* 
+.OTPValidation{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.DonateAmount{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.Datepicker{
+   width: 274px;
+  border-radius: 9px;
+  border: 1px solid #7FBD2C;
+  border-bottom: 3px solid #7FBD2C;
+}
+
+.DocumentName{
+	
+	border-radius: 9px;
+	border: 1px solid #7FBD2C;
+	border-bottom: 3px solid #7FBD2C;
+	
+}
+.Feedback{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+
+.AskQuestion{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.QuestionDetails{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+/* 
+.BenificaryCategory {
+	border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 30%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+
+.borderForm1{
+	
+	width:102%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	 border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+
+.borderForm2{
+	
+	width:48%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	  border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+.MyselfCategory{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+ 
+ 
+        h1, .h1 {
+    font-size: 1.625rem;
+    margin-left: 302px;
+    color: #0077A2;
+}
+
+label {
+         
+    color: #0077A2;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.borderForm {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 43px;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+     border-radius: 12px;
+ 	 border-bottom:3px solid #7FBD2C;
+}
+
+
+
+
+      
+    .avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}    
+
+  
+ .text-dark {
+    color: #272834 !important;
+    margin-left: 0px;
+}
+
+.CauseDetails{
+border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 624px;
+ margin-left: 22%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+
+.inline1{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline2{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline3{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline4{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline5{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline6{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline7{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	
+	
+	.BenificiaryDetails{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+ 
+
+.ProjectRegistration{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+h1, .h1 {
+    color: #0077A2;
+    margin-left: 234px;
+}
+h4, .h4 {
+    font-size: 26px;
+    margin-left: 163px;
+     color: #0077A2;
+}
+
+h5, .h5 {
+    font-size: 26px;
+    margin-left: 297px;
+    color: #0077A2;
+}
+h3, .h3 {
+    font-size: 1.1875rem;
+    margin-left: 459px;
+}
+h6, .h6 {
+    font-size: 26px;
+    margin-left: 305px;
+    color: #0077A2;
+}
+
+strong{
+	color: #0077A2;
+}
+
+.IndividualFamily{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+   
+   .IndividualCategory{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+    .IndividualOther{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFriend{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   
+   .GroupOther{
+   border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFamily{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .projectSucessfully{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 978px;
+ margin-left: 9%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+.borderForm3{
+	background-color: #edf9f0;
+border-radius: 12px;
+ width: 704px;  
+ margin-top: 7px;
+  margin-left: 2px;
+  border-bottom: 3px solid #7FBD2C;
+   border-color: #7FBD2C;
+   height: 43px;
+}
+
+.OTPValidation{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.DonateAmount{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.Datepicker{
+   width: 274px;
+  border-radius: 9px;
+  border: 1px solid #7FBD2C;
+  border-bottom: 3px solid #7FBD2C;
+}
+
+.DocumentName{
+	
+	border-radius: 9px;
+	border: 1px solid #7FBD2C;
+	border-bottom: 3px solid #7FBD2C;
+	
+}
+
+
+
+
+.AskQuestion{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.QuestionDetails{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+.DonorRegistrationForm{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+.borderForm{
+	 border-radius: 12px;
+ 	 border-color: #7FBD2C;
+}
+
+.form-control {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 2.5rem;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.OTPValidation{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+.DonateAmount{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.Feedback{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.AskQuestion{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.QuestionDetails{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+ */
+ 
+ 
+ 
+ 
+ 

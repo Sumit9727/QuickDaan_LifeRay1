@@ -1,0 +1,7 @@
+Bundle-Name: nirav-jasper-report-api
+Bundle-SymbolicName: com.nirav.jasper.report.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.nirav.jasper.report.api,\
+	com.nirav.jasper.report.api.bean,\
+	com.nirav.jasper.report.api.contants

@@ -1,0 +1,28 @@
+2019-07-25 05:18:24.952 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-07-25 05:18:28.152 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-07-25 05:18:47.906 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-07-25 05:23:19.305 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:273] LPKG validation time 04:41s
+2019-07-25 05:23:25.643 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-07-25 05:23:25.715 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-07-25 05:23:25.716 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-07-25 05:23:52.405 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-07-25 05:23:52.406 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-07-25 05:23:59.099 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-07-25 05:24:14.088 INFO  [main][StartupHelper:72] There are no patches installed
+2019-07-25 05:24:16.743 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-07-25 05:24:52.554 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-07-25 05:24:53.297 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-07-25 05:24:57.079 INFO  [main][ThemeHotDeployListener:108] 1 theme for my-custome-theme is available for use
+2019-07-25 05:25:00.852 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-07-25 05:25:04.356 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-07-25 05:25:04.357 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-07-25 05:25:04.358 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-07-25 05:25:04.358 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-07-25 05:25:05.386 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-07-25 05:25:05.387 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-07-25 05:25:09.725 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-07-25 05:25:09.726 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-07-25 05:25:09.727 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-07-25 07:47:45.092 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m56s18ms78µs924ns).
+2019-07-25 07:47:48.124 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m56s15ms607µs857ns).
+2019-07-25 07:48:04.295 WARN  [HikariPool-3 housekeeper][HikariPool:686] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=3m56s15ms409µs662ns).

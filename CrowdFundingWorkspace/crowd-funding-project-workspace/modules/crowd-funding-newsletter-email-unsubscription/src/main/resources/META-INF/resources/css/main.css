@@ -1,0 +1,56 @@
+.newsLetter{
+	border-top:3px solid #7FBD2C;
+	border-right:3px solid #7FBD2C;
+	border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color:white;
+    margin-top: -4px;
+    background-color:white;
+    margin:40px; 
+    padding: 50px;
+    max-width: 520px;
+    width:100%;
+    margin-left: 25%;  
+}
+
+.newsLetterSubscription{
+	border-top:3px solid #7FBD2C;
+	border-right:3px solid #7FBD2C;
+	border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color:white;
+    margin-top: -4px;
+    background-color:white;
+    margin:40px; 
+    padding: 50px;
+    max-width: 520px;
+    width:100%;
+    margin-left: 25%;  
+}
+
+    .boxField{
+    border-radious:12px;
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 2.5rem;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 12px;
+ 	border-bottom:3px solid #7FBD2C;
+    }
+    
+    label {
+    color: #0077A2;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}

@@ -1,0 +1,22 @@
+19-Nov-2019 03:50:54.669 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2144 ms
+19-Nov-2019 04:01:05.029 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 610351 ms
+19-Nov-2019 12:25:35.897 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Refresh Thread: Equinox Container: de71d22a-9cc3-45dc-aee8-c867133ed9b9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+ org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:336)
+19-Nov-2019 12:25:35.976 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Framework stop] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1590)
+ org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+ org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:192)
+ org.eclipse.osgi.container.Module.doStop(Module.java:636)
+ org.eclipse.osgi.container.Module.stop(Module.java:498)
+ org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+ org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:210)
+ java.lang.Thread.run(Thread.java:745)
+19-Nov-2019 12:52:54.990 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7727 ms
+19-Nov-2019 13:02:41.387 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 586341 ms
+19-Nov-2019 13:12:31.891 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1064 ms
+19-Nov-2019 13:14:39.806 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 127902 ms
+19-Nov-2019 13:28:02.477 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 465 ms
+19-Nov-2019 13:29:30.964 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 88489 ms

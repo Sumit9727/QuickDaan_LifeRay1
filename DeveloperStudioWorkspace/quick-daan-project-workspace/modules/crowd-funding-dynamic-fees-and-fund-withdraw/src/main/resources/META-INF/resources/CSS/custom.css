@@ -1,0 +1,107 @@
+.DonorRegistrationForm{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+.borderForm{
+	 border-radius: 12px;
+ 	 border-color: #7FBD2C;
+}
+
+.form-control {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 2.5rem;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.OTPValidation{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+.DonateAmount{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.Feedback{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.AskQuestion{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.QuestionDetails{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+ margin-left: 25%;
+}
+
+.AddNewCategory{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 520px;
+    margin-left: 335px;	
+}
+

@@ -1,0 +1,10 @@
+#
+#Mon Sep 30 16:29:10 IST 2019
+linkedResources=
+managedNatures=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+subprojectPaths=external-databse-connection-api;external-databse-connection-service
+derivedResources=.gradle;build;external-databse-connection-api/build;external-databse-connection-service/build
+buildScriptPath=build.gradle
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildDir=build

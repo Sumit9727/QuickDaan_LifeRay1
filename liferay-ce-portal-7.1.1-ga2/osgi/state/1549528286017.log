@@ -1,0 +1,22 @@
+!SESSION 2019-02-07 09:48:19.469 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-02-07 09:48:19.470
+!MESSAGE Failed to install artifact: C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\marketplace\Jasper report.lpkg
+!STACK 0
+com.liferay.portal.lpkg.deployer.LPKGVerifyException: com.liferay.portal.lpkg.deployer.LPKGVerifyException: LPKG validation failed with {[Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-api)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-api version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.reports.engine.console.model)(&(version>=1.0.0)(!(version>=2.0.0))))']], [Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-web)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-web version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.kernel.model)(&(version>=1.0.0)(!(version>=2.0.0))))']], [Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-impl)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-impl version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.knowarth.report.api.bean)(&(version>=1.0.0)(!(version>=2.0.0))))' [caused by: Unable to resolve jasper-report-api version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.reports.engine.console.model)(&(version>=1.0.0)(!(version>=2.0.0))))']]]}
+	at com.liferay.portal.lpkg.deployer.internal.DefaultLPKGVerifier.verify(DefaultLPKGVerifier.java:130)
+	at com.liferay.portal.lpkg.deployer.internal.DefaultLPKGDeployer.deploy(DefaultLPKGDeployer.java:116)
+	at com.liferay.portal.lpkg.deployer.internal.LPKGArtifactInstaller.install(LPKGArtifactInstaller.java:99)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:937)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+Caused by: com.liferay.portal.lpkg.deployer.LPKGVerifyException: LPKG validation failed with {[Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-api)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-api version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.reports.engine.console.model)(&(version>=1.0.0)(!(version>=2.0.0))))']], [Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-web)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-web version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.kernel.model)(&(version>=1.0.0)(!(version>=2.0.0))))']], [Unable to resolve <<INITIAL>>: missing requirement osgi.identity;filter:='(&(osgi.identity=jasper-report-impl)(type=osgi.bundle)(version>=1.0.0))' [caused by: Unable to resolve jasper-report-impl version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.knowarth.report.api.bean)(&(version>=1.0.0)(!(version>=2.0.0))))' [caused by: Unable to resolve jasper-report-api version=1.0.0: missing requirement osgi.wiring.package;filter:='(&(osgi.wiring.package=com.liferay.portal.reports.engine.console.model)(&(version>=1.0.0)(!(version>=2.0.0))))']]]}
+	at com.liferay.portal.lpkg.deployer.internal.LPKGIndexValidator.validate(LPKGIndexValidator.java:262)
+	at com.liferay.portal.lpkg.deployer.internal.DefaultLPKGVerifier.verify(DefaultLPKGVerifier.java:93)
+	... 7 more

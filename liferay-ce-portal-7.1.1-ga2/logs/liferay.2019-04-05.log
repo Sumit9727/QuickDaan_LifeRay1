@@ -1,0 +1,13 @@
+2019-04-05 02:51:57.919 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22h16m2s219ms343µs643ns).
+2019-04-05 02:52:00.717 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=22h16m2s219ms144µs33ns).
+2019-04-05 03:47:17.326 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.admin.report_1.0.0 [5877]
+2019-04-05 03:47:17.962 INFO  [Refresh Thread: Equinox Container: 89217335-ddb7-4d6f-81c9-677cb6275a1d][BundleStartStopLogger:39] STARTED com.crowd.funding.admin.report_1.0.0 [5877]
+2019-04-05 03:48:03.703 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.crowd.funding.recruitment_1.0.0 [6762]
+2019-04-05 07:09:29.013 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m32s952ms400µs47ns).
+2019-04-05 07:09:31.934 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=28m32s952ms399µs693ns).
+2019-04-05 09:00:40.870 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m41s894ms390µs989ns).
+2019-04-05 09:00:43.770 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h19m41s888ms429µs227ns).
+2019-04-05 09:47:33.211 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m22s41ms432µs210ns).
+2019-04-05 09:47:36.167 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m22s41ms437µs519ns).
+2019-04-05 09:50:17.032 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.admin.report_1.0.0 [5877]
+2019-04-05 09:50:17.556 INFO  [Refresh Thread: Equinox Container: 89217335-ddb7-4d6f-81c9-677cb6275a1d][BundleStartStopLogger:39] STARTED com.crowd.funding.admin.report_1.0.0 [5877]

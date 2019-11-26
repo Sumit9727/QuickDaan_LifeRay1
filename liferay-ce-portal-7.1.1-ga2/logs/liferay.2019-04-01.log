@@ -1,0 +1,947 @@
+2019-04-01 03:33:50.884 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-04-01 03:33:56.964 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-04-01 03:34:19.249 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-04-01 03:38:44.498 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:273] LPKG validation time 04:31s
+2019-04-01 03:40:47.422 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-04-01 03:40:49.642 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-04-01 03:40:49.646 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-04-01 03:41:51.616 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-04-01 03:41:51.620 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-04-01 03:41:55.773 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-04-01 03:42:05.959 INFO  [main][StartupHelper:72] There are no patches installed
+2019-04-01 03:42:08.396 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-04-01 03:42:10.822 INFO  [main][BaseAutoDeployListener:43] Copying themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190401034210744PAODZCOW\classic-theme.war
+2019-04-01 03:42:13.855 INFO  [main][BaseDeployer:877] Deploying classic-theme.war
+2019-04-01 03:42:40.194 INFO  [main][BaseAutoDeployListener:50] Themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190401034210744PAODZCOW\classic-theme.war copied successfully
+2019-04-01 03:42:46.804 INFO  [main][BaseAutoDeployListener:43] Copying themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190401034246772LLUFLKJE\admin-theme.war
+2019-04-01 03:42:47.386 INFO  [main][BaseDeployer:877] Deploying admin-theme.war
+2019-04-01 03:43:06.338 INFO  [main][BaseAutoDeployListener:50] Themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190401034246772LLUFLKJE\admin-theme.war copied successfully
+2019-04-01 03:43:34.008 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-04-01 03:43:35.396 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-04-01 03:43:38.700 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-01 03:43:41.206 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-04-01 03:43:41.207 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-04-01 03:43:41.207 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-04-01 03:43:41.207 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-04-01 03:43:42.096 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-04-01 03:43:42.097 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-04-01 03:43:46.056 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-04-01 03:43:46.057 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-04-01 03:43:46.058 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-04-01 05:08:38.812 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=27m11s676ms182µs717ns).
+2019-04-01 05:09:02.856 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m11s676ms246µs776ns).
+2019-04-01 06:12:46.624 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m7s241ms35µs326ns).
+2019-04-01 06:13:10.676 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m7s228ms665µs511ns).
+2019-04-01 06:57:54.400 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 06:57:55.089 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:00:10.308 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:00:10.561 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:00:50.651 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:00:50.900 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:01:15.971 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4931]
+2019-04-01 07:01:51.281 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:03:31.422 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:03:31.680 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:04:56.831 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:04:57.080 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:12:12.652 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:12:12.863 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:12:52.962 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:12:53.211 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:13:18.299 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:13:18.524 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:27:04.460 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:27:04.761 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:27:54.876 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:27:55.168 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 07:58:37.969 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=51s21ms92µs144ns).
+2019-04-01 07:59:01.988 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s20ms414µs36ns).
+2019-04-01 08:05:33.341 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:05:33.593 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:08:28.938 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:10:14.094 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:10:14.255 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:20:40.020 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:20:40.208 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:21:50.350 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:21:50.482 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:22:15.577 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:22:15.717 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:31:21.414 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:31:21.545 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:33:36.768 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:33:36.912 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:35:52.074 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:35:52.381 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:36:00.199 ERROR [http-nio-8080-exec-1][PortletRequestDispatcherImpl:306] Unable to dispatch request: java.lang.NumberFormatException: null
+2019-04-01 08:36:00.208 ERROR [http-nio-8080-exec-1][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NumberFormatException: null
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NumberFormatException: null
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doView(MVCPortlet.java:160)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.doDispatch(LiferayPortlet.java:305)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:492)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:316)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:127)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:58)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:124)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:71)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:564)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:660)
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:357)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:280)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:383)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:278)
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1534)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:869)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:215)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:204)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:142)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:126)
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:183)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:124)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:185)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer._render(PortletRenderer.java:192)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer.render(PortletRenderer.java:84)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doProcessTemplate(RuntimePageImpl.java:568)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doDispatch(RuntimePageImpl.java:340)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:154)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:175)
+	at com.liferay.portal.kernel.layoutconfiguration.util.RuntimePageUtil.processTemplate(RuntimePageUtil.java:94)
+	at org.apache.jsp.html.portal.layout.view.portlet_jsp._jspService(portlet_jsp.java:728)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portal.model.impl.LayoutTypeControllerImpl.includeLayoutContent(LayoutTypeControllerImpl.java:171)
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:904)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:407)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.NumberFormatException: null
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 182 more
+Caused by: java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:313)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	... 192 more
+2019-04-01 08:36:00.241 ERROR [http-nio-8080-exec-1][render_portlet_jsp:131] null
+java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:313)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doView(MVCPortlet.java:160)
+2019-04-01 08:36:57.517 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:36:57.758 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:38:12.895 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:38:13.159 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:40:38.410 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:40:38.659 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:42:13.845 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:42:14.127 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:43:39.274 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:43:39.585 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 08:56:05.503 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:56:05.675 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:58:30.927 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:58:31.114 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 08:59:21.194 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED nirav.demo_1.0.0 [5811]
+2019-04-01 08:59:21.321 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED nirav.demo_1.0.0 [5811]
+2019-04-01 09:08:16.933 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:08:17.196 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:13:17.585 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:13:17.831 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:15:33.042 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:15:33.294 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:16:58.441 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:16:58.711 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:21:49.120 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:21:49.396 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:24:14.639 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:24:14.935 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:28:25.269 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:28:25.524 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:28:30.042 ERROR [http-nio-8080-exec-9][PortletRequestDispatcherImpl:306] Unable to dispatch request: PWC6033: Error in Javac compilation for JSP__PWC6197: An error occurred at line: 26 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6197: An error occurred at line: 31 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6199: Generated servlet error:_Some messages have been simplified; recompile with -Xdiags:verbose to get full output__ [Sanitized]
+2019-04-01 09:28:30.044 ERROR [http-nio-8080-exec-9][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: PWC6033: Error in Javac compilation for JSP__PWC6197: An error occurred at line: 26 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6197: An error occurred at line: 31 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6199: Generated servlet error:_Some messages have been simplified; recompile with -Xdiags:verbose to get full output__ [Sanitized]
+javax.portlet.PortletException: org.apache.jasper.JasperException: PWC6033: Error in Javac compilation for JSP__PWC6197: An error occurred at line: 26 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6197: An error occurred at line: 31 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6199: Generated servlet error:_Some messages have been simplified; recompile with -Xdiags:verbose to get full output__ [Sanitized]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doView(MVCPortlet.java:160)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.doDispatch(LiferayPortlet.java:305)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:492)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:316)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:127)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:58)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:124)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:71)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:564)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:660)
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:357)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:280)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:383)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:278)
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1534)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:869)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:215)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:204)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:142)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:126)
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:183)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:124)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:185)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer._render(PortletRenderer.java:192)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer.render(PortletRenderer.java:84)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doProcessTemplate(RuntimePageImpl.java:568)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doDispatch(RuntimePageImpl.java:340)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:154)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:175)
+	at com.liferay.portal.kernel.layoutconfiguration.util.RuntimePageUtil.processTemplate(RuntimePageUtil.java:94)
+	at org.apache.jsp.html.portal.layout.view.portlet_jsp._jspService(portlet_jsp.java:728)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portal.model.impl.LayoutTypeControllerImpl.includeLayoutContent(LayoutTypeControllerImpl.java:171)
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:904)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:407)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: PWC6033: Error in Javac compilation for JSP__PWC6197: An error occurred at line: 26 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6197: An error occurred at line: 31 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6199: Generated servlet error:_Some messages have been simplified; recompile with -Xdiags:verbose to get full output__ [Sanitized]
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:129)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:299)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:453)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:375)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 182 more
+2019-04-01 09:28:30.046 ERROR [http-nio-8080-exec-9][render_portlet_jsp:131] null
+org.apache.jasper.JasperException: PWC6033: Error in Javac compilation for JSP__PWC6197: An error occurred at line: 26 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6197: An error occurred at line: 31 in the jsp file: /jsp/OTPValidation.jsp_PWC6199: Generated servlet error:_incompatible types: long cannot be converted to java.lang.String__PWC6199: Generated servlet error:_Some messages have been simplified; recompile with -Xdiags:verbose to get full output__ [Sanitized]
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:129)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:299)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:453)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:375)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doView(MVCPortlet.java:160)
+2019-04-01 09:29:15.654 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:29:15.936 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:35:16.415 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 09:35:16.683 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:00:03.599 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:00:03.896 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:02:19.122 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:02:19.345 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:04:35.424 ERROR [http-nio-8080-exec-10][PortletRequestDispatcherImpl:306] Unable to dispatch request: java.lang.NullPointerException
+2019-04-01 10:04:35.427 ERROR [http-nio-8080-exec-10][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.serveResource(MVCPortlet.java:329)
+	at com.crowd.funding.user.registration.controller.portlet.UserRegistrationControllerPortlet.serveResource(UserRegistrationControllerPortlet.java:271)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:146)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:86)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:140)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:78)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.forward(RequestDispatcherAdaptor.java:40)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:561)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeResource(InvokerPortletImpl.java:685)
+	at com.liferay.portlet.internal.InvokerPortletImpl.serveResource(InvokerPortletImpl.java:504)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.serveResource(MonitoringInvokerPortlet.java:313)
+	at com.liferay.portlet.internal.PortletContainerImpl._serveResource(PortletContainerImpl.java:1032)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$serveResource$4(PortletContainerImpl.java:257)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.serveResource(PortletContainerImpl.java:250)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.serveResource(SecurityPortletContainerWrapper.java:203)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.serveResource(RestrictPortletContainerWrapper.java:150)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.serveResource(PortletContainerUtil.java:201)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:384)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 144 more
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:297)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	... 154 more
+2019-04-01 10:07:59.851 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:08:00.098 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:08:28.815 ERROR [http-nio-8080-exec-6][PortletRequestDispatcherImpl:306] Unable to dispatch request: java.lang.NullPointerException
+2019-04-01 10:08:28.818 ERROR [http-nio-8080-exec-6][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.serveResource(MVCPortlet.java:329)
+	at com.crowd.funding.user.registration.controller.portlet.UserRegistrationControllerPortlet.serveResource(UserRegistrationControllerPortlet.java:275)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:146)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:86)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:140)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:78)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.forward(RequestDispatcherAdaptor.java:40)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:561)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeResource(InvokerPortletImpl.java:685)
+	at com.liferay.portlet.internal.InvokerPortletImpl.serveResource(InvokerPortletImpl.java:504)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.serveResource(MonitoringInvokerPortlet.java:313)
+	at com.liferay.portlet.internal.PortletContainerImpl._serveResource(PortletContainerImpl.java:1032)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$serveResource$4(PortletContainerImpl.java:257)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.serveResource(PortletContainerImpl.java:250)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.serveResource(SecurityPortletContainerWrapper.java:203)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.serveResource(RestrictPortletContainerWrapper.java:150)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.serveResource(PortletContainerUtil.java:201)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:384)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 144 more
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:297)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	... 154 more
+2019-04-01 10:10:35.334 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:10:35.624 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:15:46.015 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:15:46.240 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:18:51.515 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:18:51.791 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:21:52.058 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:21:52.310 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:23:07.449 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:23:07.684 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:23:57.810 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:23:58.073 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:25:53.245 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:25:53.490 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:27:08.624 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:27:08.895 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:28:39.056 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:28:39.308 INFO  [Refresh Thread: Equinox Container: b1d5e63e-ee0c-4300-a88f-40bd66785edc][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [5810]
+2019-04-01 10:41:21.272 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-04-01 10:41:23.390 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-04-01 10:41:33.596 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-04-01 10:45:58.254 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:273] LPKG validation time 04:31s
+2019-04-01 10:46:02.677 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-04-01 10:46:02.713 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-04-01 10:46:02.714 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-04-01 10:46:17.810 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-04-01 10:46:17.810 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-04-01 10:46:21.017 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-04-01 10:46:27.874 INFO  [main][StartupHelper:72] There are no patches installed
+2019-04-01 10:46:29.577 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-04-01 10:46:46.637 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-01 10:46:55.519 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-04-01 10:46:56.607 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-04-01 10:46:56.698 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-04-01 10:46:56.699 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-04-01 10:46:56.700 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-04-01 10:46:56.701 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-04-01 10:46:58.076 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-04-01 10:46:58.076 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-04-01 10:47:02.880 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-04-01 10:47:02.881 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-04-01 10:47:02.883 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-04-01 10:47:24.297 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [5810]

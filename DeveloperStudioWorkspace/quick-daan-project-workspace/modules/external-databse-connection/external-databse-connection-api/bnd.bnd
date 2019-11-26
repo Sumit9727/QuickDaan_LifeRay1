@@ -1,0 +1,10 @@
+Bundle-Name: external-databse-connection-api
+Bundle-SymbolicName: com.external.database.connection.demo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.external.database.connection.demo.exception,\
+	com.external.database.connection.demo.model,\
+	com.external.database.connection.demo.service,\
+	com.external.database.connection.demo.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../external-databse-connection-service/service.xml

@@ -1,0 +1,36 @@
+2019-04-16 02:58:21.428 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-04-16 02:58:25.809 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-04-16 02:58:46.726 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:166] Passed integrity check
+2019-04-16 02:58:46.996 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-04-16 02:58:46.996 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-04-16 02:59:05.081 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-04-16 02:59:05.088 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-04-16 02:59:10.763 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-04-16 02:59:22.676 INFO  [main][StartupHelper:72] There are no patches installed
+2019-04-16 02:59:24.961 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-04-16 02:59:53.623 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-04-16 02:59:54.346 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-04-16 02:59:54.686 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-16 02:59:58.189 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-04-16 02:59:58.190 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-04-16 02:59:58.190 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-04-16 02:59:58.191 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-04-16 02:59:59.197 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-04-16 02:59:59.197 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-04-16 03:00:04.438 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-04-16 03:00:04.438 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-04-16 03:00:04.452 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-04-16 03:15:51.914 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-16 03:15:52.135 INFO  [Refresh Thread: Equinox Container: 56923022-5a2b-4773-95b1-88429ed6c7ad][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-16 03:15:52.385 ERROR [Refresh Thread: Equinox Container: 56923022-5a2b-4773-95b1-88429ed6c7ad][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-16 03:16:17.495 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.dynamic.fees.controller_1.0.0 [6831]
+2019-04-16 03:16:18.369 INFO  [Refresh Thread: Equinox Container: 56923022-5a2b-4773-95b1-88429ed6c7ad][BundleStartStopLogger:39] STARTED com.crowd.funding.dynamic.fees.controller_1.0.0 [6831]
+2019-04-16 04:44:07.666 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m16s211ms406µs735ns).
+2019-04-16 04:44:11.924 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m16s210ms301µs447ns).
+2019-04-16 04:47:17.990 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-16 04:47:18.160 INFO  [Refresh Thread: Equinox Container: 56923022-5a2b-4773-95b1-88429ed6c7ad][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [6832]
+2019-04-16 04:47:18.490 ERROR [Refresh Thread: Equinox Container: 56923022-5a2b-4773-95b1-88429ed6c7ad][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-16 06:09:21.898 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m14s245ms275µs713ns).
+2019-04-16 06:09:26.133 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=52m14s244ms754µs37ns).
+2019-04-16 10:29:09.645 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h38m17s240ms296µs782ns).
+2019-04-16 10:29:13.965 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h38m17s239ms469µs320ns).

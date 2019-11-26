@@ -1,0 +1,313 @@
+<%@page import="java.util.LinkedList"%>
+<%@page import="com.crowd.funding.database.service.ProjectExtentionRegistrationLocalServiceUtil"%>
+<%@page import="com.crowd.funding.database.model.ProjectExtentionRegistration"%>
+<%@page import="com.liferay.counter.kernel.service.CounterLocalServiceUtil"%>
+<%@page import="java.util.spi.LocaleServiceProvider"%>
+<%@page import="java.util.Date"%>
+<%@page import="java.util.Iterator"%>
+<%@page import="java.util.HashSet"%>
+<%@page import="java.util.Set"%>
+<%@page import="com.liferay.portal.kernel.util.Validator"%>
+<%@page import="com.crowd.funding.module.controller.constants.CrowdFundingBenificiaryDetailsPortletKeys"%>
+<%@page import="com.crowd.funding.database.service.FundRegistrationLocalServiceUtil"%>
+<%@page import="com.crowd.funding.database.model.FundRegistration"%>
+<%@page import="com.crowd.funding.database.service.UserRegistrationLocalServiceUtil"%>
+<%@page import="com.crowd.funding.database.model.UserRegistration"%>
+<%@page import="com.crowd.funding.database.service.ProjectPriorityRegistrationLocalServiceUtil"%>
+<%@page import="com.crowd.funding.database.service.ProjectPriorityRegistrationLocalService"%>
+<%@page import="com.crowd.funding.database.model.ProjectPriorityRegistration"%>
+<%@page import="java.util.Collections"%>
+<%@page import="com.liferay.portal.kernel.util.ListUtil"%>
+<%@page import="java.util.List"%>
+<%@page import="com.crowd.funding.database.service.ProjectRegistrationLocalServiceUtil"%>
+<%@page import="com.crowd.funding.database.model.ProjectRegistration"%>
+<%@ include file="/init.jsp" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
+<%@ taglib uri="http://liferay.com/tld/aui" prefix="aui" %><%@
+taglib uri="http://liferay.com/tld/portlet" prefix="liferay-portlet" %><%@
+taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %><%@
+taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
+
+<liferay-theme:defineObjects />
+
+<portlet:defineObjects />
+
+<style>
+	.overlay {
+  position: absolute;
+    bottom: 22px;
+    left: 22px;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 88%;
+    height: 70px;
+    
+}
+.overlay:hover{
+	background-color:black;
+	opacity:0.8;
+}
+.text {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:orangered;
+}
+.text:hover{
+	color:white;
+}
+
+
+
+ .float-left{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+ 
+ }
+ 
+ .portlet-decorate .portlet-content {
+     height: 660px;
+ }
+ 
+.portlet-decorate
+     a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a {
+    color: #0B5FFF;
+    }
+    
+          .c{
+  margin-left: 15%;
+      color:#9c3353;
+      margin-bottom: 5%;
+    }
+    
+    .d{
+    margin-left: 21px;
+     font-size: 14px;
+     }
+    
+      h3, .h3 {
+    font-size: 1.1875rem;
+    margin-left: 79px;
+      color: #b91141;
+    }
+    
+    .e{
+   margin-left: 50px;
+    }
+    
+    .remainingDays{
+    margin-bottom: -4%;
+    margin-top: -4%;
+    color: #b91141;
+    }
+    
+</style>
+
+								<!-- Featured Project -->
+
+<%
+
+Set<Integer> hash_Set = new HashSet<Integer>();
+List<ProjectPriorityRegistration> projectList = ProjectPriorityRegistrationLocalServiceUtil.findByPRIORITY(CrowdFundingBenificiaryDetailsPortletKeys.Priority_1);
+
+for(ProjectPriorityRegistration priorityObj : projectList){
+	hash_Set.add(priorityObj.getPRIORITY_SEQUANCE());
+}
+Iterator value = hash_Set.iterator(); 
+while (value.hasNext()) { 
+    int prioritySquance = (Integer) value.next();
+
+		ProjectPriorityRegistration sortedList = ProjectPriorityRegistrationLocalServiceUtil.findByPRIORITY_SEQUANCE(prioritySquance);
+		
+		ProjectRegistration featuredProjectObj = ProjectRegistrationLocalServiceUtil.findByPROJECT_ID(sortedList.getPROJECT_ID());
+		UserRegistration userObj = UserRegistrationLocalServiceUtil.findByUSER_ID(featuredProjectObj.getUSER_ID());
+		List<FundRegistration> donatedFundList = FundRegistrationLocalServiceUtil.findByPROJECT_ID(featuredProjectObj.getPROJECT_ID());
+		
+		Date currentDate;
+		Date endDate;
+		int differenceInDays = 0 ;
+		
+		List<ProjectExtentionRegistration> extentionRegistrationList = ProjectExtentionRegistrationLocalServiceUtil.findByPROJECT_ID(featuredProjectObj.getPROJECT_ID());
+		if(extentionRegistrationList.size() >= 0){
+			LinkedList<ProjectExtentionRegistration> reverseList = new LinkedList<ProjectExtentionRegistration>();
+			for(int i=extentionRegistrationList.size()-1;i>=0;i--){
+				reverseList.add(extentionRegistrationList.get(i));
+			}
+			for(ProjectExtentionRegistration extentionRegistrationObj :reverseList){
+				currentDate = new Date();
+				endDate = extentionRegistrationObj.getEXTENTION_DATE();
+				differenceInDays = (int) ((endDate.getTime() - currentDate.getTime())/(1000*60*60*24)) + 1;
+				break;
+			}
+		}
+		if(extentionRegistrationList.size() == 0){
+			currentDate = new Date();
+			endDate = featuredProjectObj.getEND_DATE();
+			differenceInDays = (int) ((endDate.getTime() - currentDate.getTime())/(1000*60*60*24)) + 1;
+		}
+		
+		List<FundRegistration> fundAmtList = FundRegistrationLocalServiceUtil.findByPROJECT_ID(featuredProjectObj.getPROJECT_ID());
+		
+		float donatedAmount = 0;
+		for(FundRegistration fundAmtObj : fundAmtList){
+			donatedAmount = donatedAmount + fundAmtObj.getDONATED_AMOUNT();
+		}
+		if(differenceInDays >= 0 ){
+			if(featuredProjectObj.getSTATUS() == CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_4 && featuredProjectObj.getREQUIRED_FUND_AMOUNT() == donatedAmount &&  featuredProjectObj.getSTATUS() == CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_5){
+			}
+			if(featuredProjectObj.getSTATUS() != CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_4 && featuredProjectObj.getREQUIRED_FUND_AMOUNT() != donatedAmount &&  featuredProjectObj.getSTATUS() != CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_5){
+				String normalDoubleValue = String.format("%.0f",donatedAmount);
+	%>
+				 	<portlet:resourceURL  var="featuredProjectImageResourceURL">
+						<portlet:param name="serverResourceCall" value="ProjectIDForProjectImage"/>
+						<portlet:param name="ProjectIDForProjectImage" value="<%= String.valueOf(featuredProjectObj.getPROJECT_ID())  %>"/>
+					</portlet:resourceURL>
+					<portlet:renderURL var="featuredProjectViewImages" windowState="normal" >
+						<portlet:param name="projectID" value="<%= String.valueOf(sortedList.getPROJECT_ID()) %>" />
+						<portlet:param name="jspPage" value="/jsp/Campaign Details/CampaignDetails.jsp" />
+					</portlet:renderURL>
+							
+					<div class="a">
+						<div class="float-left">
+                   
+						<div class ="e">
+						
+						<div  style="  box-shadow: 0 0 10px 1px #d3d3d3; border: 1px solid #cecece; border-style: solid; margin-left: 58px;background-color:white;display: inline-block;position:relative;margin:0 auto;">
+							<a href="${featuredProjectViewImages}">
+								<img class="picture" src="${featuredProjectImageResourceURL}" alt="Image" style="height:251px;width: 265px;margin-left: 0px;" />
+							</a>
+							<br>
+							<br>
+							<h3><%= normalDoubleValue %> raised</h3>
+							<% System.out.println("Nirav :::: " + featuredProjectObj.getREQUIRED_FUND_AMOUNT()); %>
+					        <div  style=" margin-left: 49px; color: #b91141;">
+							 <center>	<progress value=<%= donatedAmount %> max=<%=  featuredProjectObj.getREQUIRED_FUND_AMOUNT() %>></progress></center>
+							</div>
+							<br>
+							<div class="d">
+								<div><B><%= featuredProjectObj.getTITLE() %></B></div>
+							</div>
+							<hr>
+							<div class ="remainingDays">
+							<center><div><%= differenceInDays %> days left  |  <%= donatedFundList.size() %> Supportes</div></center>
+							</div>
+							<hr>
+							<div class ="c">
+								<div style="margin-top: -5%; margin-bottom: -1%;">Posted By : <%= userObj.getFULL_NAME() %></div>
+							</div>
+						</div>
+						</div>
+						</div>
+					</div>
+				
+	<% } }
+		
+}%>  
+
+											<!-- Non-Featured Project -->
+<%
+List<ProjectPriorityRegistration> priorityList = ProjectPriorityRegistrationLocalServiceUtil.findByPRIORITY(CrowdFundingBenificiaryDetailsPortletKeys.Priority_0);
+
+for(ProjectPriorityRegistration priorityObj : priorityList ){ 
+	ProjectRegistration normalProjectObj = ProjectRegistrationLocalServiceUtil.findByPROJECT_ID(priorityObj.getPROJECT_ID());
+	
+	UserRegistration userObj = UserRegistrationLocalServiceUtil.findByUSER_ID(normalProjectObj.getUSER_ID());
+	List<FundRegistration> donatedFundList = FundRegistrationLocalServiceUtil.findByPROJECT_ID(normalProjectObj.getPROJECT_ID());
+	
+	Date currentDate;
+	Date endDate;
+	int differenceInDays = 0;
+	
+	List<ProjectExtentionRegistration> extentionRegistrationList = ProjectExtentionRegistrationLocalServiceUtil.findByPROJECT_ID(normalProjectObj.getPROJECT_ID());
+	if(extentionRegistrationList.size() >= 0){
+		LinkedList<ProjectExtentionRegistration> reverseList = new LinkedList<ProjectExtentionRegistration>();
+		for(int i=extentionRegistrationList.size()-1;i>=0;i--){
+			reverseList.add(extentionRegistrationList.get(i));
+		}
+		for(ProjectExtentionRegistration extentionRegistrationObj :reverseList){
+			currentDate = new Date();
+			endDate = extentionRegistrationObj.getEXTENTION_DATE();
+			differenceInDays = (int) ((endDate.getTime() - currentDate.getTime())/(1000*60*60*24)) + 1;
+			break;
+		}
+	}
+	if(extentionRegistrationList.size() == 0){
+		
+		currentDate = new Date();
+		endDate = normalProjectObj.getEND_DATE();
+		differenceInDays = (int) ((endDate.getTime() - currentDate.getTime())/(1000*60*60*24)) + 1;
+	}
+	List<FundRegistration> fundAmtList = FundRegistrationLocalServiceUtil.findByPROJECT_ID(normalProjectObj.getPROJECT_ID());
+	float donatedAmount = 0;
+	
+	for(FundRegistration fundAmtObj : fundAmtList){
+		donatedAmount = donatedAmount + fundAmtObj.getDONATED_AMOUNT();
+	}
+	
+	if(differenceInDays >= 0 ){
+		if(normalProjectObj.getSTATUS() == CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_4 && normalProjectObj.getREQUIRED_FUND_AMOUNT() == donatedAmount &&  normalProjectObj.getSTATUS() == CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_5){
+		}
+		if(normalProjectObj.getSTATUS() != CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_4 && normalProjectObj.getREQUIRED_FUND_AMOUNT() != donatedAmount &&  normalProjectObj.getSTATUS() != CrowdFundingBenificiaryDetailsPortletKeys.Project_STATUS_5){
+	%>
+				 	<portlet:resourceURL  var="NormalProjectImageResourceURL">
+						<portlet:param name="serverResourceCall" value="ProjectIDForProjectImage"/>
+						<portlet:param name="ProjectIDForProjectImage" value="<%= String.valueOf(normalProjectObj.getPROJECT_ID())  %>"/>
+					</portlet:resourceURL>
+					<portlet:renderURL var="NormalProjectViewImages" windowState="normal" >
+						<portlet:param name="projectID" value="<%= String.valueOf(priorityObj.getPROJECT_ID()) %>" />
+						<portlet:param name="jspPage" value="/jsp/Campaign Details/CampaignDetails.jsp" />
+					</portlet:renderURL>
+								
+					<div class="a">
+						<div class="float-left">
+                   
+						<div class ="e">
+						
+						<div  style="  box-shadow: 0 0 10px 1px #d3d3d3; border: 1px solid #cecece; border-style: solid; margin-left: 58px;background-color:white;display: inline-block;position:relative;margin:0 auto;">
+							<a href="${NormalProjectViewImages}">
+								<img class="picture" src="${NormalProjectImageResourceURL}" alt="Image" style="height:251px;width: 265px;margin-left: 0px;" />
+							</a>
+							<br>
+							<br>
+							<h3><%= donatedAmount %> raised</h3>
+							<% System.out.println("Nirav :::: " + normalProjectObj.getREQUIRED_FUND_AMOUNT()); %>
+					        <div class ="b">
+								<progress value=<%= donatedAmount %> max=<%= normalProjectObj.getREQUIRED_FUND_AMOUNT() %>></progress>
+							</div>
+							<br>
+							
+							<div class="d">
+								<div><B> <%= normalProjectObj.getTITLE() %></B></div>
+							</div>
+							<hr>
+							<div class ="remainingDays">
+							<center><div><%= differenceInDays %> days left  |  <%= donatedFundList.size() %> Supportes</div></center>
+							</div>
+							<hr>
+							<div class ="c">
+								<div style="margin-top: -5%; margin-bottom: -1%;">Posted By : <%= userObj.getFULL_NAME() %></div>
+							</div>
+						</div>
+						</div>
+						</div>
+					</div>
+	<% }
+	}
+}
+	%>
+	
+	

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-destroy-method="destroy" default-init-method="afterPropertiesSet"
+ xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="basePersistence" abstract="true">
+	<property name="dataSource" ref="extDataSource" />
+	<property name="sessionFactory" ref="extDataSourceSessionFactory" />
+</bean>
+
+	<bean id="extDataSourceHibernateSessionFactory"
+		class="com.liferay.portal.spring.hibernate.PortletHibernateConfiguration"
+		lazy-init="true">
+		<property name="dataSource" ref="extDataSource" />
+	</bean>
+
+	<bean id="extDataSourceSessionFactory"
+		class="com.liferay.portal.dao.orm.hibernate.SessionFactoryImpl"
+		lazy-init="true">
+		<property name="sessionFactoryImplementor"
+			ref="extDataSourceHibernateSessionFactory" />
+	</bean>
+
+	<bean id="extDataSource"
+		class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy">
+		<property name="targetDataSource">
+			<bean
+				class="com.liferay.portal.dao.jdbc.util.DataSourceFactoryBean">
+				<property name="propertyPrefix" value="jdbc.external." />
+			</bean>
+		</property>
+	</bean>
+</beans>
+ 

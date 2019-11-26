@@ -1,0 +1,4 @@
+Bundle-Name: Dashboard-portlet
+Bundle-SymbolicName: com.dashboard.portlet.controller
+Bundle-Version: 1.0.0
+Export-Package: com.dashboard.portlet.controller.constants

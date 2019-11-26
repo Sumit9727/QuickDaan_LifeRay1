@@ -1,0 +1,5 @@
+23-Nov-2019 04:33:04.277 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1628 ms
+23-Nov-2019 04:44:31.178 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 686882 ms
+23-Nov-2019 09:20:06.770 SEVERE [http-nio-8080-exec-8] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.module.controller-1.0.0\org\apache\jsp\jsp\AdminDaysExtend\AdminDaysExtendCampaignTab_jsp.java
+23-Nov-2019 10:02:02.686 SEVERE [http-nio-8080-exec-7] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.module.controller-1.0.0\org\apache\jsp\jsp\AdminDaysExtend\AdminDaysExtendCampaignTab_jsp.java
+23-Nov-2019 10:06:43.884 SEVERE [http-nio-8080-exec-7] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.module.controller-1.0.0\org\apache\jsp\jsp\AdminDaysExtend\AdminDaysExtendCampaignTab_jsp.java

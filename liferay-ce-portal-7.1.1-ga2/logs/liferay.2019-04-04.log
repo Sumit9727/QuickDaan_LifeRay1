@@ -1,0 +1,22 @@
+2019-04-04 02:58:55.274 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-04-04 02:58:58.141 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-04-04 02:59:16.129 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:166] Passed integrity check
+2019-04-04 02:59:16.289 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-04-04 02:59:16.289 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-04-04 02:59:34.920 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-04-04 02:59:34.933 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-04-04 02:59:40.644 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-04-04 02:59:51.466 INFO  [main][StartupHelper:72] There are no patches installed
+2019-04-04 02:59:53.706 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-04-04 03:00:08.956 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-04-04 03:00:21.019 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-04-04 03:00:22.247 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-04-04 03:00:23.406 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-04-04 03:00:23.413 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-04-04 03:00:23.413 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-04-04 03:00:23.414 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-04-04 03:00:25.029 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-04-04 03:00:25.029 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-04-04 03:00:28.710 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-04-04 03:00:28.710 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-04-04 03:00:28.721 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.

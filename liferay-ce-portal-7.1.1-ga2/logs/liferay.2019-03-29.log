@@ -1,0 +1,638 @@
+2019-03-29 03:20:24.103 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-03-29 03:20:27.101 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-03-29 03:20:47.712 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-03-29 03:25:10.680 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:273] LPKG validation time 04:36s
+2019-03-29 03:25:14.813 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-03-29 03:25:14.871 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-03-29 03:25:14.871 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-03-29 03:25:33.807 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-03-29 03:25:33.816 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-03-29 03:25:39.770 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-03-29 03:25:53.612 INFO  [main][StartupHelper:72] There are no patches installed
+2019-03-29 03:25:55.853 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-03-29 03:26:18.350 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-03-29 03:26:19.755 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-03-29 03:26:24.271 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 03:26:26.585 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-03-29 03:26:26.585 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-03-29 03:26:26.590 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-03-29 03:26:26.590 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-03-29 03:26:27.514 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-03-29 03:26:27.514 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-03-29 03:26:31.576 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-03-29 03:26:31.585 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-03-29 03:26:31.586 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-03-29 04:40:08.163 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.api_1.0.0 [4851]
+2019-03-29 04:40:08.515 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED com.crowd.funding.admin.report_1.0.0 [4858]
+2019-03-29 04:40:08.546 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 04:40:08.663 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 04:40:08.686 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED crowd.funding.newsletter.email_1.0.0 [4855]
+2019-03-29 04:40:08.754 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED com.crowd.funding.dynamic.fees.controller_1.0.0 [4854]
+2019-03-29 04:40:09.018 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.service_1.0.0 [4852]
+2019-03-29 04:40:09.379 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.database.service_1.0.0 [4852]
+2019-03-29 04:40:10.543 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.dynamic.fees.controller_1.0.0 [4854]
+2019-03-29 04:40:10.717 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED crowd.funding.newsletter.email_1.0.0 [4855]
+2019-03-29 04:40:10.766 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 04:40:10.911 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 04:40:10.954 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 04:40:10.990 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.admin.report_1.0.0 [4858]
+2019-03-29 04:40:11.026 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.database.api_1.0.0 [4851]
+2019-03-29 04:40:21.178 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.database.service_1.0.0 [4852]
+2019-03-29 04:40:21.358 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.database.service_1.0.0 [4852]
+2019-03-29 04:40:21.843 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][ServiceComponentLocalServiceImpl:625] Auto upgrading CrowdFunding database to build number 152 is not supported for a production environment. Write an UpgradeStep to ensure data is upgraded correctly.
+2019-03-29 04:40:21.843 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][ServiceComponentLocalServiceImpl:630] Upgrading database with tables.sql
+2019-03-29 04:40:21.858 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_acknowledgement_details' already exists: create table cf_acknowledgement_details (_uuid_ varchar(75) null,_ACKNOWLEDGMENT_ID bigint not null primary key,_PROJECT_ID bigint,_DETAILS longtext null,_DOCUMENT_NAME varchar(75) null,_DOCUMENT_TYPE varchar(75) null,_DOCUMENT longblob,_VIDEO_TYPE varchar(75) null,_VIDEO longblob,_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.286 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_donor_details' already exists: create table cf_donor_details (_uuid_ varchar(75) null,_DONOR_ID bigint not null primary key,_NAME varchar(75) null,_ADDRESS varchar(75) null,_CITY varchar(75) null,_STATE varchar(75) null,_COUNTRY varchar(75) null,_PINCODE varchar(75) null,_MAIL_ADDRESS varchar(75) null,_MOBILE_NO bigint,_OTP integer,_MAIL_VERIFICATION integer,_SMS_VERIFICATION integer,_CREATION_DATE_TIME datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.302 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_dynamic_fees_details' already exists: create table cf_dynamic_fees_details (_uuid_ varchar(75) null,_CATEGORY_ID bigint not null primary key,_CATEGORY_NAME varchar(75) null,_PROCESSING_FEES double,_PROJECT_FEES double,_PAYMENT_GATEWAY_CHARGES double,_OTHER_CHARGES double_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.302 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_extention_details' already exists: create table cf_extention_details (_uuid_ varchar(75) null,_PROJECT_EXTENTION_ID bigint not null primary key,_PROJECT_ID bigint,_EXTENTION_DATE datetime(6) null,_COMMENT varchar(75) null,_STATUS integer,_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.302 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_fund_release_details' already exists: create table cf_fund_release_details (_uuid_ varchar(75) null,_FUND_RELEASE_ID bigint not null primary key,_PROJECT_FEES_ID bigint,_PROJECT_ID bigint,_CURRENCY varchar(75) null,_PROCESSING_FEES double,_PROJECT_FEES double,_PAYMENT_GATEWAY_CHARGES double,_OTHER_CHARGES double,_TOTAL_WITHDRAW_AMOUNT double,_STATUS integer,_RELEASE_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.302 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_history_log_details' already exists: create table cf_history_log_details (_uuid_ varchar(75) null,_HISTORY_ID bigint not null primary key,_USER_ID bigint,_URL varchar(75) null,_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.319 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_news_letter_details' already exists: create table cf_news_letter_details (_uuid_ varchar(75) null,_NEWS_LETTER_ID bigint not null primary key,_TITLE varchar(75) null,_DETAILS varchar(75) null,_DOCUMENT_TYPE varchar(75) null,_DOCUMENT longblob,_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_account_details' already exists: create table cf_project_account_details (_uuid_ varchar(75) null,_ACCOUNT_ID bigint not null primary key,_PROJECT_ID bigint,_ACCOUNT_NO bigint,_ACCOUNT_HOLDER_NAME varchar(1000) null,_IFSC_CODE varchar(75) null,_UPI_NO varchar(75) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_benificiary_details' already exists: create table cf_project_benificiary_details (_uuid_ varchar(75) null,_BENIFICIARY_ID bigint not null primary key,_BENIFICIARY_CATEGORY varchar(75) null,_BENIFICIARY_TYPE varchar(75) null,_BENIFICIARY_NAME varchar(500) null,_AGE varchar(75) null,_GENDER varchar(75) null,_LOCATION varchar(75) null,_RELATIONSHIP varchar(500) null,_RELATIONSHIP_DETAILS varchar(75) null,_MEMBERS_NO integer,_CAUSE_DETAILS varchar(75) null,_ADDRESS_LINE1 varchar(1000) null,_ADDRESS_LINE2 varchar(1000) null,_CITY varchar(75) null,_STATE varchar(75) null,_PINCODE integer,_COUNTRY varchar(75) null,_CONTACT_NAME varchar(75) null,_CONTACT_NO bigint,_ALTERNATE_CONTACT_NO bigint,_EMERGENCY_CONTACT_DETAILS longtext null,_IMAGE_TYPE varchar(75) null,_IMAGE longblob_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_comment_details' already exists: create table cf_project_comment_details (_uuid_ varchar(75) null,_PROJECT_COMMENT_ID bigint not null primary key,_PROJECT_ID bigint,_COMMENT longtext null,_ANSWER longtext null,_DONOR_USER_ID bigint,_COMMENT_DATE datetime(6) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_document_details' already exists: create table cf_project_document_details (_uuid_ varchar(75) null,_PROJECT_DOCUMENT_ID bigint not null primary key,_PROJECT_ID bigint,_DOCUMENT_NAME varchar(1000) null,_DOCUMENT_TYPE varchar(75) null,_DOCUMENT longblob_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_feedback_details' already exists: create table cf_project_feedback_details (_uuid_ varchar(75) null,_PROJECT_FEEDBACK_ID bigint not null primary key,_PROJECT_ID bigint,_FEEDBACK longtext null,_DONOR_USER_ID bigint,_FEEDBACK_DATE datetime(6) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_fees_details' already exists: create table cf_project_fees_details (_uuid_ varchar(75) null,_PROJECT_FEES_ID bigint not null primary key,_CATEGORY_ID bigint,_PROJECT_ID bigint,_START_AMOUNT double,_END_AMOUNT double,_WITHDRAW_STATUS integer,_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.924 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_follower_details' already exists: create table cf_project_follower_details (_uuid_ varchar(75) null,_PROJECT_FOLLOWER_ID bigint not null primary key,_USER_ID bigint,_PROJECT_ID bigint,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_fund_details' already exists: create table cf_project_fund_details (_uuid_ varchar(75) null,_PROJECT_FUND_ID bigint not null primary key,_DONOR_ID bigint,_PROJECT_ID bigint,_CURRENCY varchar(75) null,_DONATED_AMOUNT double,_DONOR_USER_ID bigint,_DONOR_STATUS integer,_COMMENT longtext null,_DONATED_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_image_details' already exists: create table cf_project_image_details (_uuid_ varchar(75) null,_PROJECT_IMAGE_ID bigint not null primary key,_PROJECT_ID bigint,_IMAGE_NAME varchar(75) null,_IMAGE_TYPE varchar(75) null,_IMAGE longblob_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_master' already exists: create table cf_project_master (_uuid_ varchar(75) null,_PROJECT_ID bigint not null primary key,_USER_ID bigint,_BENIFICIARY_ID bigint,_TITLE longtext null,_DESCRIPTION longtext null,_VIDEO_TYPE varchar(75) null,_VIDEO longblob,_REQUIRED_FUND_AMOUNT double,_CREATION_DATE datetime(6) null,_END_DATE datetime(6) null,_COMMENT varchar(75) null,_STATUS integer,_REQUEST_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_priority_details' already exists: create table cf_project_priority_details (_uuid_ varchar(75) null,_PROJECT_PRIORITY_ID bigint not null primary key,_PROJECT_ID bigint,_PRIORITY integer,_PRIORITY_SEQUANCE integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_question_details' already exists: create table cf_project_question_details (_uuid_ varchar(75) null,_PROJECT_QUESTION_ID bigint not null primary key,_PROJECT_ID bigint,_QUESTION longtext null,_QUESTION_REQUESTER_USER_ID bigint,_QUESTION_DATE datetime(6) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_project_update_details' already exists: create table cf_project_update_details (_uuid_ varchar(75) null,_PROJECT_UPDATE_ID bigint not null primary key,_PROJECT_ID bigint,_UPDATE_DETAILS longtext null,_UPDATE_DATE datetime(6) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_subscription_details' already exists: create table cf_subscription_details (_uuid_ varchar(75) null,_SUSCRIBER_ID bigint not null primary key,_EMAIL varchar(75) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_update_requester_details' already exists: create table cf_update_requester_details (_uuid_ varchar(75) null,_PROJECT_UPDATE_REQUEST_ID bigint not null primary key,_PROJECT_ID bigint,_UPDATE_REQUESTER_USER_ID bigint,_UPDATE_REQUEST_DATE datetime(6) null,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_user_follow_details' already exists: create table cf_user_follow_details (_uuid_ varchar(75) null,_USER_FOLLOW_ID bigint not null primary key,_USER_ID bigint,_FOLLOWER_USER_ID bigint,_STATUS integer_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_user_master' already exists: create table cf_user_master (_uuid_ varchar(75) null,_USER_ID bigint not null primary key,_USER_OTP_ID bigint,_FULL_NAME varchar(1000) null,_PASSWORD varchar(75) null,_GENDER varchar(75) null,_CREATION_DATE datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'cf_user_otp_details' already exists: create table cf_user_otp_details (_uuid_ varchar(75) null,_USER_OTP_ID bigint not null primary key,_MOBILE_NO bigint,_MAIL varchar(75) null,_OTP integer,_OTP_DEVICE integer,_OTP_VERIFICATION_STATUS integer,_CREATION_DATE_TIME datetime(6) null_) engine InnoDB;_ [Sanitized]
+2019-03-29 04:40:22.940 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][ServiceComponentLocalServiceImpl:431] No optional file META-INF/portlet-model-hints-ext.xml found
+2019-03-29 04:40:23.034 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:168] Starting backup of cf_project_benificiary_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_project_benificiary_details-353914025407178743.tmp
+2019-03-29 04:40:23.065 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:204] Finished backup of cf_project_benificiary_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_project_benificiary_details-353914025407178743.tmp in 31 ms
+2019-03-29 04:40:24.349 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:168] Starting backup of cf_candidate_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_candidate_details-4673839848955059269.tmp
+2019-03-29 04:40:24.365 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:204] Finished backup of cf_candidate_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_candidate_details-4673839848955059269.tmp in 16 ms
+2019-03-29 04:40:25.131 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:168] Starting backup of cf_position_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_position_details-1852845694029267102.tmp
+2019-03-29 04:40:25.131 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:204] Finished backup of cf_position_details to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_position_details-1852845694029267102.tmp in 0 ms
+2019-03-29 04:40:25.881 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:168] Starting backup of cf_project_master to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_project_master-3590450542627808592.tmp
+2019-03-29 04:40:25.914 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][Table:204] Finished backup of cf_project_master to C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\temp-db-cf_project_master-3590450542627808592.tmp in 33 ms
+2019-03-29 04:40:26.603 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][ServiceComponentLocalServiceImpl:652] Upgrading database with indexes.sql
+2019-03-29 04:40:27.572 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'lr7.cf_fund_otp_details' doesn't exist: create index IX_F4C15618 on cf_fund_otp_details (MOBILE_NO);_ [Sanitized]
+2019-03-29 04:40:27.579 WARN  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BaseDB:487] Table 'lr7.cf_fund_otp_details' doesn't exist: create index IX_E4E3B61E on cf_fund_otp_details (uuid_);_ [Sanitized]
+2019-03-29 07:00:14.248 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:00:14.430 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:00:14.874 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:03:55.120 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:03:55.366 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:03:55.723 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:04:06.873 ERROR [http-nio-8080-exec-4][PortletRequestDispatcherImpl:306] Unable to dispatch request: /jsp/AdminDaysExtend/AdminDaysExtendCampaignTab.jsp(27,9) /jsp/AdminDaysExtend/RequestCampaignDaysExtendList.jsp(9,0) PWC6117: File "/AdminDaysExtend/init.jsp" not found
+2019-03-29 07:04:06.876 ERROR [http-nio-8080-exec-4][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: /jsp/AdminDaysExtend/AdminDaysExtendCampaignTab.jsp(27,9) /jsp/AdminDaysExtend/RequestCampaignDaysExtendList.jsp(9,0) PWC6117: File "/AdminDaysExtend/init.jsp" not found
+javax.portlet.PortletException: org.apache.jasper.JasperException: /jsp/AdminDaysExtend/AdminDaysExtendCampaignTab.jsp(27,9) /jsp/AdminDaysExtend/RequestCampaignDaysExtendList.jsp(9,0) PWC6117: File "/AdminDaysExtend/init.jsp" not found
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doView(MVCPortlet.java:160)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.doDispatch(LiferayPortlet.java:305)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:492)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:316)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:127)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:58)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:124)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:71)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:564)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:660)
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:357)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:280)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:383)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:278)
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1534)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:869)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:215)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:204)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:142)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:126)
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:183)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:124)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:185)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer._render(PortletRenderer.java:192)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer.render(PortletRenderer.java:84)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doProcessTemplate(RuntimePageImpl.java:568)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doDispatch(RuntimePageImpl.java:340)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:154)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:175)
+	at com.liferay.portal.kernel.layoutconfiguration.util.RuntimePageUtil.processTemplate(RuntimePageUtil.java:94)
+	at org.apache.jsp.html.portal.layout.view.portlet_jsp._jspService(portlet_jsp.java:728)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portal.model.impl.LayoutTypeControllerImpl.includeLayoutContent(LayoutTypeControllerImpl.java:171)
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:904)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:407)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: /jsp/AdminDaysExtend/AdminDaysExtendCampaignTab.jsp(27,9) /jsp/AdminDaysExtend/RequestCampaignDaysExtendList.jsp(9,0) PWC6117: File "/AdminDaysExtend/init.jsp" not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:143)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:398)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:431)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:574)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1657)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1911)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1164)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1481)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1680)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1911)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1164)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1481)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1680)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:145)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:212)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:375)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 182 more
+Caused by: org.apache.jasper.JasperException: /jsp/AdminDaysExtend/RequestCampaignDaysExtendList.jsp(9,0) PWC6117: File "/AdminDaysExtend/init.jsp" not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:143)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:398)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:431)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:574)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1657)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:161)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:394)
+	... 210 more
+Caused by: org.apache.jasper.JasperException: PWC6117: File "/AdminDaysExtend/init.jsp" not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:378)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:172)
+	at org.apache.jasper.compiler.JspUtil.getInputStream(JspUtil.java:920)
+	at org.apache.jasper.xmlparser.XMLEncodingDetector.getEncoding(XMLEncodingDetector.java:145)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:381)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:215)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:161)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:394)
+	... 217 more
+2019-03-29 07:04:06.886 ERROR [http-nio-8080-exec-4][render_portlet_jsp:131] null
+org.apache.jasper.JasperException: PWC6117: File "/AdminDaysExtend/init.jsp" not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:378)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:172)
+	at org.apache.jasper.compiler.JspUtil.getInputStream(JspUtil.java:920)
+	at org.apache.jasper.xmlparser.XMLEncodingDetector.getEncoding(XMLEncodingDetector.java:145)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:381)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:215)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:161)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:394)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:431)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:574)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1657)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:161)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:394)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:431)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:574)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1657)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1911)
+2019-03-29 07:05:00.834 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:05:01.082 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:05:01.333 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:06:11.444 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:06:11.579 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:06:11.924 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:11:27.334 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:11:27.468 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:11:27.702 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:12:12.878 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:12:13.333 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:12:13.690 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:20:29.374 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:20:29.510 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:20:29.775 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:20:40.478 WARN  [http-nio-8080-exec-2][code_jsp:172] {code="404", msg="/js/jquery.dataTables.min.js", uri=/js/jquery.dataTables.min.js}
+2019-03-29 07:20:40.489 WARN  [http-nio-8080-exec-10][code_jsp:172] {code="404", msg="/js/jquery.dataTables.min.js", uri=/js/jquery.dataTables.min.js}
+2019-03-29 07:20:40.498 WARN  [http-nio-8080-exec-6][code_jsp:172] {code="404", msg="/js/jquery.dataTables.min.js", uri=/js/jquery.dataTables.min.js}
+2019-03-29 07:22:25.131 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4856]
+2019-03-29 07:22:45.335 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4859]
+2019-03-29 07:22:45.657 ERROR [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:27:31.123 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4859]
+2019-03-29 07:27:51.363 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:27:51.579 ERROR [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:28:51.697 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:28:51.832 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:28:52.059 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:29:42.168 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:29:42.297 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:29:42.597 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 07:30:07.707 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:30:07.841 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 07:30:08.214 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 08:09:23.509 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m27s103ms339µs684ns).
+2019-03-29 08:09:26.594 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m27s102ms940µs110ns).
+2019-03-29 08:10:03.049 WARN  [http-nio-8080-exec-7][SecurityPortletContainerWrapper:393] User 20139 is not allowed to access URL http://localhost:8080/group/control_panel/manage and portlet com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet
+2019-03-29 08:21:32.950 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4860]
+2019-03-29 08:22:23.275 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4861]
+2019-03-29 08:22:23.590 ERROR [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 08:23:33.774 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4861]
+2019-03-29 08:23:33.900 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4861]
+2019-03-29 08:23:34.057 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 08:25:29.226 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.module.controller_1.0.0 [4861]
+2019-03-29 08:25:29.362 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.module.controller_1.0.0 [4861]
+2019-03-29 08:25:29.657 ERROR [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-03-29 09:43:49.730 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 09:43:49.918 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 09:47:30.447 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 09:47:30.648 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 09:52:31.192 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 09:52:31.374 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:05:02.341 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:05:02.527 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:06:43.076 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:06:43.248 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:07:18.623 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:07:18.794 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:07:57.203 ERROR [http-nio-8080-exec-5][PortletRequestDispatcherImpl:306] Unable to dispatch request: java.lang.NullPointerException
+2019-03-29 10:07:57.205 ERROR [http-nio-8080-exec-5][PortletServlet:112] javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:308)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:489)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:316)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:127)
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:58)
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:124)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:71)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:564)
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:660)
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:357)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:280)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:383)
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:278)
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1534)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:869)
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:215)
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:394)
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:204)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:142)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:126)
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:183)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:124)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:185)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer._render(PortletRenderer.java:192)
+	at com.liferay.portal.layoutconfiguration.util.PortletRenderer.render(PortletRenderer.java:84)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doProcessTemplate(RuntimePageImpl.java:568)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.doDispatch(RuntimePageImpl.java:340)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:154)
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageImpl.processTemplate(RuntimePageImpl.java:175)
+	at com.liferay.portal.kernel.layoutconfiguration.util.RuntimePageUtil.processTemplate(RuntimePageUtil.java:94)
+	at org.apache.jsp.html.portal.layout.view.portlet_jsp._jspService(portlet_jsp.java:728)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:64)
+	at com.liferay.portal.servlet.DirectRequestDispatcherFactoryImpl$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryImpl.java:179)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.doDispatch(ClassLoaderRequestDispatcherWrapper.java:79)
+	at com.liferay.portal.servlet.ClassLoaderRequestDispatcherWrapper.include(ClassLoaderRequestDispatcherWrapper.java:53)
+	at com.liferay.portal.servlet.TransferHeadersHelperImpl$TransferHeadersRequestDispatcher.include(TransferHeadersHelperImpl.java:163)
+	at com.liferay.portal.model.impl.LayoutTypeControllerImpl.includeLayoutContent(LayoutTypeControllerImpl.java:171)
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:904)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:407)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:174)
+	at com.liferay.portal.struts.PortalRequestProcessor._processActionPerform(PortalRequestProcessor.java:706)
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:646)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:194)
+	at com.liferay.portal.servlet.MainServlet.process(MainServlet.java:1065)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:462)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:596)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:573)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:119)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:360)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:57)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:340)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:260)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:144)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:178)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:207)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:112)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:188)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:491)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:764)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1388)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	... 180 more
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:343)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	... 190 more
+2019-03-29 10:07:57.209 ERROR [http-nio-8080-exec-5][render_portlet_jsp:131] null
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.OTPValidation_jsp._jspService(OTPValidation_jsp:343)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319)
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:330)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120)
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:293)
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:128)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:589)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:605)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:489)
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291)
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:316)
+2019-03-29 10:10:24.203 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 10:10:24.386 INFO  [Refresh Thread: Equinox Container: 5680c1c2-ecee-4c6a-ad82-043a4e00d626][BundleStartStopLogger:39] STARTED com.crowd.funding.user.registration.controller_1.0.0 [4857]
+2019-03-29 11:24:59.109 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m35s266ms333µs86ns).
+2019-03-29 11:25:02.246 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m35s266ms40µs396ns).

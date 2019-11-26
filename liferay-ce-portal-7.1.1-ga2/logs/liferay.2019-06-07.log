@@ -1,0 +1,25 @@
+2019-06-07 05:04:09.273 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-06-07 05:04:12.098 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-06-07 05:04:28.897 INFO  [ModuleFramework-Static-Bundles-3][LPKGIndexValidator:166] Passed integrity check
+2019-06-07 05:04:29.101 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-06-07 05:04:29.103 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-06-07 05:04:44.352 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-06-07 05:04:44.356 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-06-07 05:04:50.185 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-06-07 05:05:01.388 INFO  [main][StartupHelper:72] There are no patches installed
+2019-06-07 05:05:03.958 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-06-07 05:05:27.241 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-06-07 05:05:28.072 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-06-07 05:05:34.770 INFO  [main][ThemeHotDeployListener:108] 1 theme for my-custome-theme is available for use
+2019-06-07 05:05:36.375 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-06-07 05:05:39.552 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-06-07 05:05:39.553 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-06-07 05:05:39.554 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-06-07 05:05:39.554 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-06-07 05:05:41.423 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-06-07 05:05:41.424 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-06-07 05:05:45.371 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-06-07 05:05:45.372 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-06-07 05:05:45.374 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-06-07 08:24:25.217 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h40m16s95ms307µs278ns).
+2019-06-07 08:24:27.819 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h40m16s95ms311µs879ns).

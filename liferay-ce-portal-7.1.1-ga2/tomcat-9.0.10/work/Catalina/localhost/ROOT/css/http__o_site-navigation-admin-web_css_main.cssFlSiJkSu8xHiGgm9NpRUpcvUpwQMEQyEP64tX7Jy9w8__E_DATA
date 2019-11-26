@@ -1,0 +1,56 @@
+body.has-control-menu .contextual-sidebar {
+  margin-top: 1px; }
+
+body.open .site-navigation-management-bar {
+  width: calc(100vw - 320px); }
+
+@media only screen and (min-width: 768px) {
+  body.has-control-menu .contextual-sidebar {
+    height: calc(100vh - 120px);
+    top: 120px; } }
+
+.site-navigation-content {
+  top: 5.25rem; }
+
+.site-navigation-management-bar {
+  position: fixed;
+  transition: ease 0.5s;
+  transition-property: left, width;
+  width: 100vw;
+  will-change: left, width;
+  z-index: 1; }
+
+.site-navigation-menu-item {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 2px; }
+  .site-navigation-menu-item > .site-navigation-menu-item {
+    padding-left: 50px; }
+  .site-navigation-menu-item--dragging .card {
+    opacity: 0.4;
+    outline: 2px dashed #65B6F0; }
+  .site-navigation-menu-item--selected > .site-navigation-menu-item__content .card,
+  .site-navigation-menu-item.dragging > .site-navigation-menu-item__content .card {
+    background-color: #F0F5FF; }
+  .site-navigation-menu-item__content {
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    width: 40ch; }
+  .site-navigation-menu-item__drag-icon {
+    cursor: move;
+    visibility: hidden;
+    z-index: 1; }
+  .site-navigation-menu-item:focus > .site-navigation-menu-item__content .site-navigation-menu-item__drag-icon,
+  .site-navigation-menu-item__content:hover .site-navigation-menu-item__drag-icon {
+    visibility: visible; }
+  .site-navigation-menu-item:focus, .site-navigation-menu-item.dragging {
+    outline: none; }
+  .site-navigation-menu-item__content:focus-within {
+    outline: none; }
+  .site-navigation-menu-item:focus > .site-navigation-menu-item__content > .card,
+  .site-navigation-menu-item.dragging > .site-navigation-menu-item__content > .card {
+    box-shadow: 0 0 0 2px #8ABFFD; }
+  .site-navigation-menu-item__content:hover > .card {
+    box-shadow: 0 0 0 2px #8ABFFD; }

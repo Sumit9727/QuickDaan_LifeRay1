@@ -1,0 +1,125 @@
+.layouts-selector {
+  margin-top: 20px; }
+  .layouts-selector .card {
+    margin-bottom: 0; }
+    .layouts-selector .card:hover {
+      box-shadow: inset 0 0 0 2px #65B6F0; }
+  .layouts-selector .card-row-padded {
+    padding: 5px; }
+  .layouts-selector .selected .card {
+    background-color: #F0F5FF; }
+  .layouts-selector .disabled {
+    opacity: 0.7; }
+  .layouts-selector .treeview-node {
+    margin-bottom: 0.5rem;
+    position: relative; }
+  .layouts-selector .treeview-node-main {
+    float: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative; }
+    .layouts-selector .treeview-node-main:not(.disabled) {
+      cursor: pointer; }
+  .layouts-selector .treeview-nodes {
+    border-left: 2px solid #869CAD;
+    list-style: none;
+    margin-left: 40px;
+    padding-left: 0; }
+    .layouts-selector .treeview-nodes .treeview-nodes {
+      border-left-style: dashed;
+      border-left-width: 1px; }
+  .layouts-selector .treeview-node-name {
+    font-size: 1.4rem;
+    margin-left: 0.8rem; }
+  .layouts-selector .treeview-node-toggler {
+    background-color: #869CAD;
+    border-radius: 3px;
+    display: inline-block;
+    height: 14px;
+    left: 0;
+    margin-left: -7px;
+    margin-top: -8px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 14px; }
+    .layouts-selector .treeview-node-toggler:before {
+      color: #FFF;
+      content: '+';
+      display: block;
+      line-height: 11px; }
+      .win .layouts-selector .treeview-node-toggler:before {
+        line-height: 14px; }
+  .layouts-selector .treeview-node-wrapper > .treeview-nodes {
+    display: none; }
+  .layouts-selector .expanded > .treeview-node-main > .treeview-node-toggler:before {
+    content: '-';
+    font-size: 21px; }
+    .win .layouts-selector .expanded > .treeview-node-main > .treeview-node-toggler:before {
+      line-height: 11px; }
+  .layouts-selector .expanded > .treeview-nodes {
+    display: block; }
+  .layouts-selector li.tree-node .tree-node-content {
+    overflow: visible; }
+  .layouts-selector .layout-prototype-tree {
+    padding-bottom: 30px; }
+  .layouts-selector .layouts-tree-container {
+    padding-left: 10px; }
+  .layouts-selector .lfr-tree li {
+    margin-bottom: 0; }
+  .layouts-selector .lfr-tree li.tree-node .tree-node-content.lfr-root-node {
+    display: none; }
+  .layouts-selector .lfr-tree li.tree-node .tree-node-content .tree-label {
+    display: inline-block;
+    overflow: visible;
+    padding-right: 20px; }
+  .layouts-selector .lfr-tree .icon-file {
+    display: none; }
+  .layouts-selector .tree-container {
+    border-left: 2px solid #869CAD;
+    margin-left: 10px; }
+    .layouts-selector .tree-container .tree-container {
+      border-left: 1px dashed #869CAD;
+      margin-left: 20px; }
+      .layouts-selector .tree-container .tree-container .tree-node-content:not(.tree-node-selected) .tree-node-hidden-hitarea:before {
+        color: #869CAD;
+        content: '\e00d';
+        font-size: 0.7em;
+        visibility: visible; }
+  .layouts-selector .tree-hitarea {
+    background-color: #869CAD;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 14px;
+    margin-left: -11px;
+    margin-top: -8px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 14px; }
+  .layouts-selector .tree-label {
+    line-height: normal; }
+  .layouts-selector .tree-node [class^="icon-"] {
+    margin-right: 0; }
+  .layouts-selector .tree-node-content {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 25px;
+    position: relative; }
+    .layouts-selector .tree-node-content .layout-tree {
+      display: block;
+      padding-bottom: 12px;
+      padding-top: 12px; }
+    .layouts-selector .tree-node-content .tree-hitarea {
+      color: #1A2126;
+      padding-right: 0; }
+    .layouts-selector .tree-node-content .tree-label {
+      margin-left: 12px; }
+  .layouts-selector .tree-pages .tree-node-selected .tree-label .layout-tree {
+    color: #65B6F0; }
+  .layouts-selector .tree-pages .tree-node-selected .tree-label .layout-tree, .layouts-selector .tree-pages .tree-node-selected .tree-label .icon-monospaced {
+    cursor: pointer; }
+  .layouts-selector .tree-root-container {
+    margin-left: -10px; }
+  .layouts-selector .tree-view {
+    overflow: visible; }

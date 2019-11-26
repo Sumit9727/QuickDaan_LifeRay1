@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.external.database.connection.demo.service.impl.StudentDetailsLocalServiceImpl" id="com.external.database.connection.demo.service.StudentDetailsLocalService" />
+	<bean class="com.external.database.connection.demo.service.impl.StudentDetailsServiceImpl" id="com.external.database.connection.demo.service.StudentDetailsService" />
+	<bean class="com.external.database.connection.demo.service.persistence.impl.StudentDetailsPersistenceImpl" id="com.external.database.connection.demo.service.persistence.StudentDetailsPersistence" parent="basePersistence">
+		<property name="dataSource" ref="extDataSource" />
+		<property name="sessionFactory" ref="extDataSourceSessionFactory" />
+	</bean>
+</beans>

@@ -1,0 +1,128 @@
+2019-07-02 04:04:30.810 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-07-02 04:04:34.228 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-07-02 04:04:57.481 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:166] Passed integrity check
+2019-07-02 04:04:57.655 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-07-02 04:04:57.656 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-07-02 04:05:10.352 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-07-02 04:05:10.354 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-07-02 04:05:15.059 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-07-02 04:05:26.640 INFO  [main][StartupHelper:72] There are no patches installed
+2019-07-02 04:05:29.531 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-07-02 04:06:04.204 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-07-02 04:06:05.260 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-07-02 04:06:11.643 INFO  [main][ThemeHotDeployListener:108] 1 theme for my-custome-theme is available for use
+2019-07-02 04:06:14.236 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-07-02 04:06:18.069 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-07-02 04:06:18.070 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-07-02 04:06:18.072 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-07-02 04:06:18.072 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-07-02 04:06:19.178 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-07-02 04:06:19.179 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-07-02 04:06:23.881 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-07-02 04:06:23.882 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-07-02 04:06:23.884 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-07-02 04:30:44.041 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:39] STARTED com.dashboard.portlet.controller_1.0.0 [8671]
+2019-07-02 04:52:20.233 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.dashboard.portlet.controller_1.0.0 [8671]
+2019-07-02 04:52:20.404 INFO  [Refresh Thread: Equinox Container: 4b1cce09-9ba5-4c3c-8f66-64f93d0b47b2][BundleStartStopLogger:39] STARTED com.dashboard.portlet.controller_1.0.0 [8671]
+2019-07-02 04:53:55.608 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules][BundleStartStopLogger:42] STOPPED com.dashboard.portlet.controller_1.0.0 [8671]
+2019-07-02 04:53:55.883 INFO  [Refresh Thread: Equinox Container: 4b1cce09-9ba5-4c3c-8f66-64f93d0b47b2][BundleStartStopLogger:39] STARTED com.dashboard.portlet.controller_1.0.0 [8671]
+2019-07-02 09:47:46.235 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h51m52s520ms113µs56ns).
+2019-07-02 09:47:46.235 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h51m52s520ms122µs611ns).
+2019-07-02 09:47:54.861 WARN  [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][PoolBase:180] HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@99241a4 (No operations allowed after connection closed.)
+2019-07-02 09:47:54.861 WARN  [QuartzScheduler_PersistedQuartzSchedulerEngineInstance-NON_CLUSTERED_MisfireHandler][PoolBase:180] HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@1d6227d7 (No operations allowed after connection closed.)
+2019-07-02 09:47:57.719 WARN  [HikariPool-3 housekeeper][HikariPool:686] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=3h51m52s520ms140µs662ns).
+2019-07-02 09:49:45.783 ERROR [QuartzScheduler_PersistedQuartzSchedulerEngineInstance-NON_CLUSTERED_MisfireHandler][PortalJobStore:3939] MisfireHandler: Error handling misfires: Database error recovering from misfires.
+org.quartz.JobPersistenceException: Database error recovering from misfires. [See nested exception: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30273ms.]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doRecoverMisfires(JobStoreSupport.java:3184)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.manage(JobStoreSupport.java:3934)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:3955)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30273ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:601)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:403)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy7.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy391.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.countMisfiredTriggersInState(StdJDBCDelegate.java:413)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doRecoverMisfires(JobStoreSupport.java:3163)
+	... 2 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1282)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5996)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:530)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:170)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:403)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy7.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy391.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2778)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3798)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+2019-07-02 09:49:45.783 ERROR [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][ErrorLogger:2361] An error occurred while scanning for the next triggers to fire.
+org.quartz.JobPersistenceException: Couldn't acquire next trigger: HikariPool-1 - Connection is not available, request timed out after 30273ms. [See nested exception: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30273ms.]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2827)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3798)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30273ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:601)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:403)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy7.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy391.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2778)
+	... 4 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1282)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5996)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:530)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:170)
+	... 16 more

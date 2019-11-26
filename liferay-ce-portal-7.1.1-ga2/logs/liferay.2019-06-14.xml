@@ -1,0 +1,290 @@
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1560491100493" level="INFO" thread="main">
+<log4j:message><![CDATA[Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="158"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1560491103764" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1326"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.lpkg.deployer.internal.LPKGIndexValidator" timestamp="1560491120385" level="INFO" thread="ModuleFramework-Static-Bundles-1">
+<log4j:message><![CDATA[Passed integrity check]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.lpkg.deployer.internal.LPKGIndexValidator" method="checkIntegrity" file="LPKGIndexValidator.java" line="166"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1560491120594" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1592"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1560491120594" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1627"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1560491135642" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1716"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1560491135651" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="413"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch6.internal.connection.EmbeddedElasticsearchConnection" timestamp="1560491141622" level="WARN" thread="Elasticsearch initialization thread">
+<log4j:message><![CDATA[Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch6.internal.connection.EmbeddedElasticsearchConnection" method="createClient" file="EmbeddedElasticsearchConnection.java" line="286"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelper" timestamp="1560491153470" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelper" method="printPatchLevel" file="StartupHelper.java" line="72"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1560491155849" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560491179673" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for classic-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560491180608" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for admin-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560491185610" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for my-custome-theme is available for use]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeDeploy" file="ThemeHotDeployListener.java" line="108"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.model.impl.PortletImpl" timestamp="1560491189592" level="ERROR" thread="main">
+<log4j:message><![CDATA[Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.model.impl.PortletImpl" method="linkRoles" file="PortletImpl.java" line="2920"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491191593" level="INFO" thread="main">
+<log4j:message><![CDATA[System check is enabled. You can run a system check with the command "system:check" in Gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="54"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491191594" level="INFO" thread="main">
+<log4j:message><![CDATA[Running system check]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="activate" file="SystemCheckOSGiCommands.java" line="64"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491191596" level="INFO" thread="main">
+<log4j:message><![CDATA[Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="95"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491191596" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491193346" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Soft Circular Dependency Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491193346" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491197303" level="INFO" thread="main">
+<log4j:message><![CDATA[Declarative Service Unsatisfied Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491197304" level="INFO" thread="main">
+<log4j:message><![CDATA[Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="111"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" timestamp="1560491197305" level="INFO" thread="main">
+<log4j:message><![CDATA[Spring Extender Unavailable Component Checker check result: No issues were found.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.osgi.debug.internal.osgi.commands.SystemCheckOSGiCommands" method="_check" file="SystemCheckOSGiCommands.java" line="123"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560507469176" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for my-custome-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560507469546" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for admin-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1560507472813" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h44m21s786ms302µs828ns).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="686"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1560507475822" level="WARN" thread="HikariPool-2 housekeeper">
+<log4j:message><![CDATA[HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h44m21s792ms132µs232ns).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="686"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.deploy.hot.ThemeHotDeployListener" timestamp="1560507476054" level="INFO" thread="main">
+<log4j:message><![CDATA[1 theme for classic-theme was unregistered]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.deploy.hot.ThemeHotDeployListener" method="doInvokeUndeploy" file="ThemeHotDeployListener.java" line="171"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" timestamp="1560507478319" level="WARN" thread="liferay/search_writer/SYSTEM_ENGINE-5">
+<log4j:message><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.spi.bearer.token.provider.configuration.DefaultBearerTokenProviderConfiguration]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.spi.bearer.token.provider.configuration.DefaultBearerTokenProviderConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" method="receive" file="ProxyMessageListener.java" line="88"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" timestamp="1560507478319" level="WARN" thread="liferay/search_writer/SYSTEM_ENGINE-3">
+<log4j:message><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.OAuth2AuthorizationFlowConfiguration]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.OAuth2AuthorizationFlowConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" method="receive" file="ProxyMessageListener.java" line="88"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" timestamp="1560507478319" level="WARN" thread="liferay/search_writer/SYSTEM_ENGINE-7">
+<log4j:message><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.template.freemarker.configuration.FreeMarkerEngineConfiguration]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.template.freemarker.configuration.FreeMarkerEngineConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" method="receive" file="ProxyMessageListener.java" line="88"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" timestamp="1560507478319" level="WARN" thread="liferay/search_writer/SYSTEM_ENGINE-8">
+<log4j:message><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.AuthorizeScreenConfiguration]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.AuthorizeScreenConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" method="receive" file="ProxyMessageListener.java" line="88"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" timestamp="1560507478319" level="WARN" thread="liferay/search_writer/SYSTEM_ENGINE-6">
+<log4j:message><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.rss.web.internal.configuration.RSSPortletInstanceConfiguration]]></log4j:message>
+<log4j:throwable><![CDATA[com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.rss.web.internal.configuration.RSSPortletInstanceConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+]]></log4j:throwable>
+<log4j:locationInfo class="com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener" method="receive" file="ProxyMessageListener.java" line="88"/>
+</log4j:event>
+

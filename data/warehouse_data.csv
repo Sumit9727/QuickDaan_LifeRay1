@@ -1,0 +1,14 @@
+"United Natural Foods, Inc - East Region",,,,,,,,,,,,,,,,,
+Customer Invoice History Report,,,,,,,,,Time Period: 06/16/2019   to 06/18/2019  ,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Customer: 23214    SANDJOHN HG              ,,,,,,,,,,,,,,,,,
+Invoice  #,PO Number,Inv Date,Cust #,Chain,Prod #,UPC Number,Brand,Description,,Pack,Size,Ordered,Shipped,Disc Descr,Discounts,Tax,Ext Net Unit
+Invoice Number:,,44435309,,,,,,,,,,,,,,,
+44435309,24811-1842062,06/16/2019  ,23214,HGN,1100890,812659-011425,SOOTH,"SORE MSLE BALM,X-STRENGTH",,6,1.5 OZ,1,1,,$0.00,$0.00,$27.51
+Totals for Invoice Number:,,,44435309,,,,,,,,,1,1,,$0.00,$0.00,$27.51
+,,,,,,,,,,,,,,,,,
+Invoice Number:,,44444787,,,,,,,,,,,,,,,
+44444787,24811-1842677,06/16/2019  ,23214,HGN,157370,032917-001580,TRADNL,"TEA,OG3,SEASON HRB SAMPLE",,6,16 BAG,1,1,,$0.00,$0.00,$20.23
+Totals for Invoice Number:,,,44444787,,,,,,,,,1,1,,$0.00,$0.00,$20.23
+,,,,,,,,,,,,,,,,,
+Totals for Customer:,,23214,SANDJOHN HG              ,,,,,,,,,402,395,,$18.03,$0.00,"$3,533.38"

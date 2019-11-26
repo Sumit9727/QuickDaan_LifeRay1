@@ -1,0 +1,10 @@
+#
+#Mon Sep 30 16:29:10 IST 2019
+linkedResources=
+managedNatures=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+subprojectPaths=Dashboard-portlet;crowd-funding-admin-report;crowd-funding-benificiary-campaign-details;crowd-funding-database;crowd-funding-dynamic-fees-and-fund-withdraw;crowd-funding-newsletter-email-unsubscription;crowd-funding-recruitment;crowd-funding-user-registration;external-databse-connection;liferay-nirav-demo;crowd-funding-database/crowd-funding-database-api;crowd-funding-database/crowd-funding-database-service;external-databse-connection/external-databse-connection-api;external-databse-connection/external-databse-connection-service
+derivedResources=.gradle;build;Dashboard-portlet/build;crowd-funding-admin-report/build;crowd-funding-benificiary-campaign-details/build;crowd-funding-database/build;crowd-funding-dynamic-fees-and-fund-withdraw/build;crowd-funding-newsletter-email-unsubscription/build;crowd-funding-recruitment/build;crowd-funding-user-registration/build;external-databse-connection/build;liferay-nirav-demo/build;crowd-funding-database/crowd-funding-database-api/build;crowd-funding-database/crowd-funding-database-service/build;external-databse-connection/external-databse-connection-api/build;external-databse-connection/external-databse-connection-service/build
+buildScriptPath=build.gradle
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildDir=build

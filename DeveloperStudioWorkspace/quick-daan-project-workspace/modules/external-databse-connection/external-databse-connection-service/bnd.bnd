@@ -1,0 +1,5 @@
+Bundle-Name: external-databse-connection-service
+Bundle-SymbolicName: com.external.database.connection.demo.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

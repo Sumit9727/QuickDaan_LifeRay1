@@ -1,0 +1,19 @@
+!SESSION 2019-02-01 06:09:06.509 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-02-01 06:09:06.509
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.module.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.module.controller [949]
+  Unresolved requirement: Import-Package: com.crowd.funding.benificiary.controller.constants
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:512)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)

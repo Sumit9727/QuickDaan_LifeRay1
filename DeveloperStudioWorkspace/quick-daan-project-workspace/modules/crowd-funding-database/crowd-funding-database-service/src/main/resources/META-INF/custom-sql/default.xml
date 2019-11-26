@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+	<sql id="projectByCreationDateQuery" >
+		<![CDATA[
+			SELECT * 
+			FROM cf_project_master 
+			WHERE DATE(CREATION_DATE) = DATE (?)
+		]]>
+	</sql>
+	<sql id="projectByBetweenCreationDateQuery" >
+		<![CDATA[
+			SELECT * 
+			FROM cf_project_master 
+			WHERE DATE(CREATION_DATE) 
+			BETWEEN  DATE (?) AND DATE (?)
+		]]>
+	</sql>
+	
+	<sql id="projectByBenificiaryIdCreationDateQuery" >
+		<![CDATA[
+			SELECT * 
+			FROM cf_project_master 
+			WHERE BENIFICIARY_ID = ? AND DATE(CREATION_DATE) = DATE (?)
+		]]>
+	</sql>
+	<sql id="projectByBenificiaryIdStatusCreationDateQuery" >
+		<![CDATA[
+			SELECT * 
+			FROM cf_project_master 
+			WHERE BENIFICIARY_ID = ? AND STATUS = ? AND DATE(CREATION_DATE) = DATE (?)
+		]]>
+	</sql>
+	<sql id="projectByStatusCreationDateQuery" >
+		<![CDATA[
+			SELECT * 
+			FROM cf_project_master 
+			WHERE STATUS = ? AND DATE(CREATION_DATE) = DATE (?)
+		]]>
+	</sql>
+</custom-sql>

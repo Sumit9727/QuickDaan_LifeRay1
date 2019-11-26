@@ -1,0 +1,300 @@
+!SESSION 2019-11-19 10:57:41.379 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:41.658
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.recruitment.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.recruitment [7783]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.660
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/crowd.funding.newsletter.email.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: crowd.funding.newsletter.email [7785]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.769
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.admin.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.admin.report [8685]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.777
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.database.service.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.database.service [7780]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.783
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.user.registration.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.user.registration.controller [7784]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.788
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.module.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.module.controller [8664]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.794
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/crowd.funding.home.page.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: crowd.funding.home.page [8688]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:42.799
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.dynamic.fees.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.dynamic.fees.controller [7781]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.092
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.recruitment.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.recruitment [7783]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.115
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/crowd.funding.newsletter.email.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: crowd.funding.newsletter.email [7785]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.115
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.admin.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.admin.report [8685]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.130
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.user.registration.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.user.registration.controller [7784]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.130
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.module.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.module.controller [8664]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.146
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/crowd.funding.home.page.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: crowd.funding.home.page [8688]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-11-19 10:57:48.146
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.crowd.funding.dynamic.fees.controller.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.crowd.funding.dynamic.fees.controller [7781]
+  Unresolved requirement: Import-Package: com.crowd.funding.database.exception; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY com.liferay.portal.search 4 0 2019-11-19 12:25:40.636
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+java.lang.NullPointerException: A registry instance was never set
+	at com.liferay.registry.RegistryUtil.getRegistry(RegistryUtil.java:27)
+	at com.liferay.portal.kernel.search.AbstractSearchEngineConfigurator.destroy(AbstractSearchEngineConfigurator.java:111)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchEngineConfigurator.destroy(ElasticsearchEngineConfigurator.java:52)
+	at com.liferay.portal.search.internal.SearchEngineHelperImpl$1.removedService(SearchEngineHelperImpl.java:319)
+	at com.liferay.portal.search.internal.SearchEngineHelperImpl$1.removedService(SearchEngineHelperImpl.java:287)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:969)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.untrack(AbstractTracked.java:341)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:911)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:222)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.unregister(AbstractComponentManager.java:927)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.unregister(AbstractComponentManager.java:892)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:135)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.unregisterService(AbstractComponentManager.java:969)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.doDeactivate(AbstractComponentManager.java:823)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.deactivateInternal(AbstractComponentManager.java:805)
+	at org.apache.felix.scr.impl.manager.DependencyManager.deactivateComponentManager(DependencyManager.java:2330)
+	at org.apache.felix.scr.impl.manager.DependencyManager.access$400(DependencyManager.java:56)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.removedService(DependencyManager.java:1125)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.removedService(DependencyManager.java:1007)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:1242)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerRemoved(ServiceTracker.java:1137)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.untrack(ServiceTracker.java:997)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1176)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:125)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:891)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:222)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.unregister(AbstractComponentManager.java:927)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.unregister(AbstractComponentManager.java:892)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:135)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.unregisterService(AbstractComponentManager.java:969)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.doDeactivate(AbstractComponentManager.java:823)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.deactivateInternal(AbstractComponentManager.java:805)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.dispose(AbstractComponentManager.java:584)
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.disposeComponents(ConfigurableComponentHolder.java:716)
+	at org.apache.felix.scr.impl.BundleComponentActivator.dispose(BundleComponentActivator.java:511)
+	at org.apache.felix.scr.impl.Activator.disposeComponents(Activator.java:428)
+	at org.apache.felix.scr.impl.Activator.access$300(Activator.java:49)
+	at org.apache.felix.scr.impl.Activator$ScrExtension.destroy(Activator.java:291)
+	at org.apache.felix.scr.impl.AbstractExtender$1.run(AbstractExtender.java:216)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.felix.scr.impl.AbstractExtender.destroyExtension(AbstractExtender.java:238)
+	at org.apache.felix.scr.impl.AbstractExtender.bundleChanged(AbstractExtender.java:132)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:908)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:230)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:137)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:129)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:191)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:634)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1723)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1642)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)

@@ -1,0 +1,7 @@
+25-Nov-2019 07:19:30.182 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 623 ms
+25-Nov-2019 07:29:25.417 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 595232 ms
+25-Nov-2019 08:49:39.578 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 855 ms
+25-Nov-2019 08:58:23.560 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 523969 ms
+25-Nov-2019 11:48:24.302 SEVERE [http-nio-8080-exec-6] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.dynamic.fees.controller-1.0.0\org\apache\jsp\jsp\FundRequestWithdraw\AdminFundRequestTab_jsp.java
+25-Nov-2019 12:19:18.056 SEVERE [http-nio-8080-exec-1] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.module.controller-1.0.0\org\apache\jsp\jsp\BenificiaryDetails\GroupCategoryData_jsp.java
+25-Nov-2019 12:20:50.088 SEVERE [http-nio-8080-exec-5] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\com.crowd.funding.module.controller-1.0.0\org\apache\jsp\jsp\BenificiaryDetails\GroupCategoryData_jsp.java

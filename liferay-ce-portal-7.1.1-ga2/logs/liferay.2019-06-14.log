@@ -1,0 +1,153 @@
+2019-06-14 05:45:00.493 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-06-14 05:45:03.764 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-06-14 05:45:20.385 INFO  [ModuleFramework-Static-Bundles-1][LPKGIndexValidator:166] Passed integrity check
+2019-06-14 05:45:20.594 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-06-14 05:45:20.594 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-06-14 05:45:35.642 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-06-14 05:45:35.651 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-06-14 05:45:41.622 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-06-14 05:45:53.470 INFO  [main][StartupHelper:72] There are no patches installed
+2019-06-14 05:45:55.849 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-06-14 05:46:19.673 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-06-14 05:46:20.608 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-06-14 05:46:25.610 INFO  [main][ThemeHotDeployListener:108] 1 theme for my-custome-theme is available for use
+2019-06-14 05:46:29.592 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-06-14 05:46:31.593 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-06-14 05:46:31.594 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-06-14 05:46:31.596 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-06-14 05:46:31.596 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-06-14 05:46:33.346 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-06-14 05:46:33.346 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-06-14 05:46:37.303 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-06-14 05:46:37.304 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-06-14 05:46:37.305 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-06-14 10:17:49.176 INFO  [main][ThemeHotDeployListener:171] 1 theme for my-custome-theme was unregistered
+2019-06-14 10:17:49.546 INFO  [main][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2019-06-14 10:17:52.813 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h44m21s786ms302µs828ns).
+2019-06-14 10:17:55.822 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h44m21s792ms132µs232ns).
+2019-06-14 10:17:56.054 INFO  [main][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2019-06-14 10:17:58.319 WARN  [liferay/search_writer/SYSTEM_ENGINE-5][ProxyMessageListener:88] com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.spi.bearer.token.provider.configuration.DefaultBearerTokenProviderConfiguration
+com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.spi.bearer.token.provider.configuration.DefaultBearerTokenProviderConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+2019-06-14 10:17:58.319 WARN  [liferay/search_writer/SYSTEM_ENGINE-3][ProxyMessageListener:88] com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.OAuth2AuthorizationFlowConfiguration
+com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.OAuth2AuthorizationFlowConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+2019-06-14 10:17:58.319 WARN  [liferay/search_writer/SYSTEM_ENGINE-7][ProxyMessageListener:88] com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.template.freemarker.configuration.FreeMarkerEngineConfiguration
+com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.template.freemarker.configuration.FreeMarkerEngineConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+2019-06-14 10:17:58.319 WARN  [liferay/search_writer/SYSTEM_ENGINE-8][ProxyMessageListener:88] com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.AuthorizeScreenConfiguration
+com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.oauth2.provider.rest.internal.endpoint.authorize.configuration.AuthorizeScreenConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more
+2019-06-14 10:17:58.319 WARN  [liferay/search_writer/SYSTEM_ENGINE-6][ProxyMessageListener:88] com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.rss.web.internal.configuration.RSSPortletInstanceConfiguration
+com.liferay.portal.kernel.search.SearchException: Unable to delete document com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.rss.web.internal.configuration.RSSPortletInstanceConfiguration
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:138)
+	at sun.reflect.GeneratedMethodAccessor537.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyRequest.execute(ProxyRequest.java:82)
+	at com.liferay.portal.kernel.messaging.proxy.ProxyMessageListener.receive(ProxyMessageListener.java:58)
+	at com.liferay.portal.kernel.messaging.InvokerMessageListener.receive(InvokerMessageListener.java:74)
+	at com.liferay.portal.kernel.messaging.ParallelDestination$1.run(ParallelDestination.java:52)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask._runTask(ThreadPoolExecutor.java:752)
+	at com.liferay.portal.kernel.concurrent.ThreadPoolExecutor$WorkerTask.run(ThreadPoolExecutor.java:664)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:42)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:53)
+	at com.liferay.portal.search.elasticsearch6.internal.ElasticsearchIndexWriter.deleteDocument(ElasticsearchIndexWriter.java:125)
+	... 10 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:39)
+	... 12 more

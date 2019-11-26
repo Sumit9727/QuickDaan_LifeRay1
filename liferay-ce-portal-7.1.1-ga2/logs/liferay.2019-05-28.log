@@ -1,0 +1,32 @@
+2019-05-28 05:42:57.542 INFO  [main][DialectDetector:158] Using dialect org.hibernate.dialect.MySQLDialect for MySQL 5.7
+2019-05-28 05:43:00.895 INFO  [main][ModuleFrameworkImpl:1326] Starting initial bundles
+2019-05-28 05:43:25.548 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:150] Running validation because of mismatched checksum for liferay-target-platform
+2019-05-28 05:48:06.288 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:273] LPKG validation time 04:57s
+2019-05-28 05:48:11.646 INFO  [ModuleFramework-Static-Bundles-4][LPKGIndexValidator:212] Updated C:\LR7\liferay-ce-portal-7.1.1-ga2\osgi\target-platform\integrity.properties
+2019-05-28 05:48:11.676 INFO  [main][ModuleFrameworkImpl:1592] Started initial bundles
+2019-05-28 05:48:11.676 INFO  [main][ModuleFrameworkImpl:1627] Starting dynamic bundles
+2019-05-28 05:48:28.590 INFO  [main][ModuleFrameworkImpl:1716] Started dynamic bundles
+2019-05-28 05:48:28.590 INFO  [main][ModuleFrameworkImpl:413] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2019-05-28 05:48:34.342 WARN  [Elasticsearch initialization thread][EmbeddedElasticsearchConnection:286] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+2019-05-28 05:48:46.975 INFO  [main][StartupHelper:72] There are no patches installed
+2019-05-28 05:48:49.918 INFO  [main][AutoDeployDir:193] Auto deploy scanner started for C:\LR7\liferay-ce-portal-7.1.1-ga2\deploy
+2019-05-28 05:49:12.691 ERROR [main][PortletImpl:2920] Unable to link role for portlet [MyCampaigns] with role-name [cf_PROJECT_OWNER] because role-link is null
+2019-05-28 05:49:22.507 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2019-05-28 05:49:23.360 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2019-05-28 05:49:23.391 INFO  [main][SystemCheckOSGiCommands:54] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2019-05-28 05:49:23.407 INFO  [main][SystemCheckOSGiCommands:64] Running system check
+2019-05-28 05:49:23.407 INFO  [main][SystemCheckOSGiCommands:95] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2019-05-28 05:49:23.407 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2019-05-28 05:49:24.625 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2019-05-28 05:49:24.625 INFO  [main][SystemCheckOSGiCommands:111] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2019-05-28 05:49:28.726 INFO  [main][SystemCheckOSGiCommands:123] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2019-05-28 05:49:28.728 INFO  [main][SystemCheckOSGiCommands:111] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2019-05-28 05:49:28.729 INFO  [main][SystemCheckOSGiCommands:123] Spring Extender Unavailable Component Checker check result: No issues were found.
+2019-05-28 09:14:47.258 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28m51s696ms821µs984ns).
+2019-05-28 09:14:49.331 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h28m51s700ms944µs79ns).
+2019-05-28 09:41:24.828 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:261] Processing my-custome-theme.war
+2019-05-28 09:41:32.018 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/war][BaseAutoDeployListener:43] Copying themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190528094131056DQBAWCOK\my-custome-theme.war
+2019-05-28 09:41:34.270 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/war][BaseDeployer:877] Deploying my-custome-theme.war
+2019-05-28 09:41:48.473 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/war][BaseAutoDeployListener:50] Themes for C:\LR7\liferay-ce-portal-7.1.1-ga2\tomcat-9.0.10\temp\20190528094131056DQBAWCOK\my-custome-theme.war copied successfully
+2019-05-28 09:41:51.934 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/war][BundleStartStopLogger:39] STARTED my-custome-theme_7.1.1.1 [8665]
+2019-05-28 09:41:58.329 INFO  [fileinstall-C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/war][ThemeHotDeployListener:108] 1 theme for my-custome-theme is available for use

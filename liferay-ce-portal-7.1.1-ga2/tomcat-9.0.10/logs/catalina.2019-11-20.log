@@ -1,0 +1,6 @@
+20-Nov-2019 04:12:54.361 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1829 ms
+20-Nov-2019 04:18:56.719 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 362358 ms
+20-Nov-2019 04:27:58.448 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1438 ms
+20-Nov-2019 04:29:59.753 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 121303 ms
+20-Nov-2019 04:30:03.187 SEVERE [http-nio-8080-exec-1] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\crowd.funding.home.page-1.0.0\org\apache\jsp\jsp\HomePage\HomePage_jsp.java
+20-Nov-2019 05:00:55.995 SEVERE [http-nio-8080-exec-3] org.apache.jasper.compiler.Compiler.generateClass Error compiling file: C:\LR7\liferay-ce-portal-7.1.1-ga2\work\crowd.funding.home.page-1.0.0\org\apache\jsp\jsp\HomePage\HomePage_jsp.java

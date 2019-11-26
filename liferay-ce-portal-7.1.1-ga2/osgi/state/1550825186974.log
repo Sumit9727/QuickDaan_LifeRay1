@@ -1,0 +1,8 @@
+!SESSION 2019-02-22 10:56:48.974 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+
+!ENTRY org.apache.felix.configadmin 4 0 2019-02-22 10:56:48.974
+!MESSAGE Worker thread CM Configuration Updater did not terminate within 5 seconds; trying to kill

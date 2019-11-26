@@ -1,0 +1,248 @@
+!SESSION 2019-03-19 04:03:11.849 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+
+!ENTRY com.nirav.jasper.report 4 0 2019-03-19 04:03:11.850
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1662)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 04:43:56.892
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:02:38.330
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:02:58.434
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:12:29.718
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:13:05.142
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:14:20.620
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:32:09.755
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 05:32:23.340
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 06:29:14.113
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 06:34:09.829
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 06:35:15.136
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 06:39:46.877
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 06:40:47.147
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 08:56:22.249
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.fileinstall 4 0 2019-03-19 08:56:41.685
+!MESSAGE Error while starting bundle: file:/C:/LR7/liferay-ce-portal-7.1.1-ga2/osgi/modules/com.nirav.jasper.report.jar
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nirav.jasper.report [1000]
+  Unresolved requirement: Import-Package: com.liferay.portal.reports.engine.console.model; version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:428)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1258)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1230)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startAllBundles(DirectoryWatcher.java:1218)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:507)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:312)
+
+!ENTRY org.apache.felix.configadmin 4 0 2019-03-19 09:56:33.562
+!MESSAGE Worker thread CM Configuration Updater did not terminate within 5 seconds; trying to kill

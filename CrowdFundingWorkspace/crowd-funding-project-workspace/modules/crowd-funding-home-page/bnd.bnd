@@ -1,0 +1,4 @@
+Bundle-Name: crowd-funding-home-page
+Bundle-SymbolicName: crowd.funding.home.page
+Bundle-Version: 1.0.0
+Export-Package: crowd.funding.home.page.constants

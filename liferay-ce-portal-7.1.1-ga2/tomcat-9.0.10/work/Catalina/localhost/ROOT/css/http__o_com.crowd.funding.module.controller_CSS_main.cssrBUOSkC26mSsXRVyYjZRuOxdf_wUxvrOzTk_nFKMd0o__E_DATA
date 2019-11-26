@@ -1,0 +1,575 @@
+.BenificaryCategory {
+border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 813px;
+ margin-left: 15%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+
+.borderForm1{
+	
+	width:102%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	 border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+
+.borderForm2{
+	
+	width:48%;
+	border-radius: 25px; 
+	box-shadow: 0 0 7px rgba(31,156,51,.32549);
+	 color: #0077A2;
+	 background: #f8f8f8;
+	  border-bottom:3px solid #7FBD2C;
+	 border-color: #7FBD2C;
+}
+
+.MyselfCategory{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+ 
+ 
+        h1, .h1 {
+    font-size: 1.625rem;
+    margin-left: 211px;
+    color: #0077A2;
+}
+
+label {
+         
+    color: #0077A2;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.borderForm {
+    background-clip: border-box;
+    border-color: #7FBD2C;
+    border-style: solid;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    height: 43px;
+    min-width: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 5px;
+    padding-right: 1rem;
+     border-radius: 12px;
+ 	 border-bottom:3px solid #7FBD2C;
+}
+
+
+
+
+      
+    .avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}    
+
+  
+ .text-dark {
+    color: #272834 !important;
+    margin-left: 0px;
+}
+
+.CauseDetails{
+border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 813px;
+ margin-left: 15%;
+ border-top:3px solid #7FBD2C;
+ border-right:3px solid #7FBD2C;
+}
+
+.inline1{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline2{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline3{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline4{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline5{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline6{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	.inline7{
+	display:inline-block;
+  margin-left: 41px;
+	}
+	
+	
+	.BenificiaryDetails{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+ 
+
+.ProjectRegistration{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+h1, .h1 {
+    color: #0077A2;
+    margin-left: 212px;
+}
+h4, .h4 {
+    font-size: 26px;
+    margin-left: 163px;
+     color: #0077A2;
+}
+
+h5, .h5 {
+    font-size: 26px;
+    margin-left: 297px;
+    color: #0077A2;
+}
+h3, .h3 {
+    font-size: 1.1875rem;
+    margin-left: 459px;
+}
+h6, .h6 {
+    font-size: 26px;
+    margin-left: 305px;
+    color: #0077A2;
+}
+
+h9, .h9 {
+	margin-left: 394px;
+    font-size: 26px;
+    color: #0077A2;
+}
+h7, .h7 {
+    font-size: 26px;
+    color: #0077A2;
+    margin-left: 246px;
+}
+strong{
+	color: #0077A2;
+}
+
+.IndividualFamily{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+   
+   .IndividualCategory{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   }
+    .IndividualOther{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFriend{
+ border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   
+   .GroupOther{
+   border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .GroupFamily{
+  border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+   
+   }
+   .projectSucessfully{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 813px;
+ margin-left:15%;
+  border-top:3px solid #7FBD2C;
+   border-right:3px solid #7FBD2C;
+}
+.borderForm3{
+	background-color: #edf9f0;
+border-radius: 12px;
+ width: 704px;  
+ margin-top: 7px;
+  margin-left: 2px;
+  border-bottom: 3px solid #7FBD2C;
+   border-color: #7FBD2C;
+   height: 43px;
+}
+
+.OTPValidation{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 813px;
+ margin-left:15%;
+}
+
+
+
+.DonateAmount{
+ border: 1px solid #7FBD2C;
+ box-shadow: 0 0 10px 1px #7FBD2C;
+ border-style: solid;
+ border-color:white;
+ margin-top: -4px;
+ background-color:white;
+ margin:40px; 
+ padding: 50px;
+ width: 813px;
+ margin-left:15%;
+}
+
+.Datepicker{
+   width: 274px;
+  border-radius: 9px;
+  border: 1px solid #7FBD2C;
+  border-bottom: 3px solid #7FBD2C;
+}
+
+.DocumentName{
+	
+	border-radius: 9px;
+	border: 1px solid #7FBD2C;
+	border-bottom: 3px solid #7FBD2C;
+	
+}
+
+.ProjectDetails{
+	
+	border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+    
+}
+.NewlyPostedCampaignDetails{
+	
+	border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+    
+}
+
+.ApproveList{
+	
+	border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 1162px;
+    margin-left:10px;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+    
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+.CampaignDetails{
+	
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left:15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+.inside{
+	
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 716px;
+    margin-left: 7%;
+  
+}
+
+.inside1{
+	   
+    margin-left: 184px;
+    font-size: 19px;
+}
+
+.ApprovalDetails{
+border: 1px solid #7FBD2C;
+    box-shadow: 0 0 10px 1px #7FBD2C;
+    border-style: solid;
+    border-color: white;
+    margin-top: -4px;
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    width: 813px;
+    margin-left: 15%;
+    border-top: 3px solid #7FBD2C;
+    border-right: 3px solid #7FBD2C;
+}
+
+.boxborder{
+	margin-left: 84px;
+    font-size: 28px;
+    margin-top: -4px;
+}
+
+
+.boxborder1{
+border: 1px solid #90caf9;
+    border-radius: 8px;
+    padding-bottom: 34px;
+    box-shadow: 2px 2px 2px #90caf9;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-top: 0px;
+}
+
+.boxborder2{
+border: 1px solid #90caf9;
+    border-radius: 8px;
+    padding-bottom: 34px;
+    box-shadow: 2px 2px 2px #90caf9;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-top: 0px;
+}
+.legend {
+   display: block;
+    border: 1px solid #90caf9;
+    width: 205px;
+    margin-left: 4%;
+    background-color: white;
+    border-bottom: 0;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -1.3%;
+    border-radius: 7px;
+    padding: 8px;
+    color: green;
+    font-weight: 600;
+}
+.legend1{
+   display: block;
+    border: 1px solid #90caf9;
+    width: 349px;
+    margin-left: 4%;
+    background-color: white;
+    border-bottom: 0;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -1.3%;
+    border-radius: 7px;
+    padding: 8px;
+    color: green;
+    font-weight: 600;
+}
+.legend1{
+   display: block;
+    border: 1px solid #90caf9;
+    width: 349px;
+    margin-left: 4%;
+    background-color: white;
+    border-bottom: 0;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -1.3%;
+    border-radius: 7px;
+    padding: 8px;
+    color: green;
+    font-weight: 600;
+}
+.legend2{
+   display: block;
+    border: 1px solid #90caf9;
+    width: 180px;
+    margin-left: 4%;
+    background-color: white;
+    border-bottom: 0;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -1.3%;
+    border-radius: 7px;
+    padding: 8px;
+    color: green;
+    font-weight: 600;
+}
+.boxborder3{
+	
+	margin-left: 461px;
+    font-size: 19px;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;init.jsp&apos; to &apos;AdminDaysExtend&apos;&#x0D;&#x0A;- Original project: &apos;crowd-funding-benificiary-campaign-details&apos;&#x0D;&#x0A;- Destination element: &apos;AdminDaysExtend&apos;&#x0D;&#x0A;- Original element: &apos;init.jsp&apos;" description="Copy file" element1="src/main/resources/META-INF/resources/init.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1553842956908" target="/crowd-funding-benificiary-campaign-details/src/main/resources/META-INF/resources/jsp/AdminDaysExtend" units="0" version="1.0"/>
+</session>

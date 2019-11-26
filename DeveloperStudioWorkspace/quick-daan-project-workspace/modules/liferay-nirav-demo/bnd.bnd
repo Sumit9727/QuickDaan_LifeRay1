@@ -1,0 +1,4 @@
+Bundle-Name: liferay-nirav-demo
+Bundle-SymbolicName: com.liferay.nirav.demo
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.nirav.demo.constants

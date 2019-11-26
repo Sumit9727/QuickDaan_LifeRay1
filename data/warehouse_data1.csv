@@ -1,0 +1,17 @@
+"United Natural Foods, Inc - East Region",,,,,,,,,,,,,,,,,
+Customer Invoice History Report,,,,,,,,,Time Period: 06/16/2019   to 06/18/2019  ,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Customer: 23221    SANDJOHN HGW             ,,,,,,,,,,,,,,,,,
+Invoice  #,PO Number,Inv Date,Cust #,Chain,Prod #,UPC Number,Brand,Description,,Pack,Size,Ordered,Shipped,Disc Descr,Discounts,Tax,Ext Net Unit
+Invoice Number:,,44451768,,,,,,,,,,,,,,,
+44451768,24813-1843190,06/17/2019  ,23221,HGN,1689850,898115-002121,ZARBEE,"COUGH&THROAT RELIEF,NIGHT",,1,6 PKT,1,1,,$0.00,$0.00,$5.75
+44451768,24813-1843190,06/17/2019  ,23221,HGN,1196021,000000-000000,UNFI,CALCULATED SHIPPING CHARG,,1,EA,1,1,POV  0,$0.00,$0.00,$3.49
+Totals for Invoice Number:,,,44451768,,,,,,,,,2,2,,$0.00,$0.00,$9.24
+,,,,,,,,,,,,,,,,,
+Invoice Number:,,44451898,,,,,,,,,,,,,,,
+44451898,24813-1843242,06/17/2019  ,23221,HGN,0139956,366106-142410,ATLAST,"WILD YAM GEL,XTRA STRNGTH",,1,2 OZ,1,1,,$0.00,$0.00,$13.77
+44451898,24813-1843242,06/17/2019  ,23221,HGN,1196021,000000-000000,UNFI,CALCULATED SHIPPING CHARG,,1,EA,1,1,POV  0,$0.00,$0.00,$3.18
+Totals for Invoice Number:,,,44451898,,,,,,,,,2,2,,$0.00,$0.00,$16.95
+,,,,,,,,,,,,,,,,,
+Totals for Customer:,,23221,SANDJOHN HGW             ,,,,,,,,,111,111,,$0.00,$0.00,$897.01
+,,,,,,,,,,,,,,,,,
